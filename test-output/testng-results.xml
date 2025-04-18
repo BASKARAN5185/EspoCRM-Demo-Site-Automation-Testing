@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-04-18T11:53:07 IST" name="Default suite" finished-at="2025-04-18T11:53:33 IST" duration-ms="26572">
+  <suite started-at="2025-04-18T16:35:24 IST" name="Suite" finished-at="2025-04-18T16:35:49 IST" duration-ms="25347">
     <groups>
     </groups>
-    <test started-at="2025-04-18T11:53:07 IST" name="Default test" finished-at="2025-04-18T11:53:33 IST" duration-ms="26572">
+    <test started-at="2025-04-18T16:35:24 IST" name="Test" finished-at="2025-04-18T16:35:49 IST" duration-ms="25347">
       <class name="testBase.LoginPageTest">
-        <test-method is-config="true" signature="setUpTheBrowser()[pri:0, instance:testBase.LoginPageTest@2794eab6]" started-at="2025-04-18T11:53:07 IST" name="setUpTheBrowser" finished-at="2025-04-18T11:53:27 IST" duration-ms="20473" status="PASS">
+        <test-method is-config="true" signature="setUpTheBrowser()[pri:0, instance:testBase.LoginPageTest@45099dd3]" started-at="2025-04-18T16:35:25 IST" name="setUpTheBrowser" finished-at="2025-04-18T16:35:41 IST" duration-ms="16104" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpTheBrowser -->
-        <test-method signature="loginTheEspoCRM()[pri:0, instance:testBase.LoginPageTest@2794eab6]" started-at="2025-04-18T11:53:28 IST" name="loginTheEspoCRM" finished-at="2025-04-18T11:53:33 IST" duration-ms="5491" status="PASS">
+        <test-method signature="loginTheEspoCRM()[pri:0, instance:testBase.LoginPageTest@45099dd3]" started-at="2025-04-18T16:35:41 IST" name="loginTheEspoCRM" finished-at="2025-04-18T16:35:49 IST" duration-ms="7788" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTheEspoCRM -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:testBase.LoginPageTest@2794eab6]" started-at="2025-04-18T11:53:33 IST" name="teardown" finished-at="2025-04-18T11:53:33 IST" duration-ms="441" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testBase.LoginPageTest@45099dd3]" started-at="2025-04-18T16:35:49 IST" name="teardown" finished-at="2025-04-18T16:35:49 IST" duration-ms="457" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- testBase.LoginPageTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

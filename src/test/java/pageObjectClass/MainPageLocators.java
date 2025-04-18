@@ -1,15 +1,14 @@
 package pageObjectClass;
 
-
 import org.openqa.selenium.By;
 import org.openqa.selenium.remote.RemoteWebDriver;
 
 import MyProject.demo.us.espocrm.com.BaseClass;
 
 public class MainPageLocators extends BaseClass {
-	
-	MainPageLocators(RemoteWebDriver driver){
-		BaseClass.driver=driver;
+
+	MainPageLocators(RemoteWebDriver driver) {
+		BaseClass.driver = driver;
 	}
 
 	// ===== Top Menu Tabs =====
@@ -369,159 +368,158 @@ public class MainPageLocators extends BaseClass {
 		driver.findElement(aboutLink).click();
 		return true;
 	}
-	
+
 	// Click methods for interacting with the dropdown button and its items
 	public boolean clickDropdownButton() {
-	    driver.findElement(dropdownButton).click();
-	    return true;
+		driver.findElement(dropdownButton).click();
+		return true;
 	}
 
 	public boolean clickEditDashboardItem() {
-	    driver.findElement(editDashboardItem).click();
-	    return true;
+		driver.findElement(editDashboardItem).click();
+		return true;
 	}
 
 	public boolean clickAddDashletItem() {
-	    driver.findElement(addDashletItem).click();
-	    return true;
+		driver.findElement(addDashletItem).click();
+		return true;
 	}
 
 	// Click methods for interacting with the tab buttons
 	public boolean clickMyHomepageTab() {
-	    driver.findElement(myHomepageTab).click();
-	    return true;
+		driver.findElement(myHomepageTab).click();
+		return true;
 	}
 
 	public boolean clickMySalesTab() {
-	    driver.findElement(mySalesTab).click();
-	    return true;
+		driver.findElement(mySalesTab).click();
+		return true;
 	}
 
 	public boolean clickSalesAnalyticsTab() {
-	    driver.findElement(salesAnalyticsTab).click();
-	    return true;
+		driver.findElement(salesAnalyticsTab).click();
+		return true;
 	}
 
 	public boolean clickCallCenterDataTab() {
-	    driver.findElement(callCenterDataTab).click();
-	    return true;
+		driver.findElement(callCenterDataTab).click();
+		return true;
 	}
 
 	public boolean clickSalesManagerTab() {
-	    driver.findElement(salesManagerTab).click();
-	    return true;
+		driver.findElement(salesManagerTab).click();
+		return true;
 	}
 
 	// Click method for the active tab button
 	public boolean clickActiveTab() {
-	    driver.findElement(activeTab).click();
-	    return true;
+		driver.findElement(activeTab).click();
+		return true;
 	}
 
 	// Click method for the global search input field
 	public boolean clickGlobalSearchInput() {
-	    driver.findElement(globalSearchInput).click();
-	    return true;
+		driver.findElement(globalSearchInput).click();
+		return true;
 	}
 
 	// Click method for the global search button
 	public boolean clickGlobalSearchButton() {
-	    driver.findElement(globalSearchButton).click();
-	    return true;
+		driver.findElement(globalSearchButton).click();
+		return true;
 	}
 
 	// Click method for the quick create dropdown
 	public boolean clickQuickCreateDropdown1() {
-	    driver.findElement(quickCreateDropdown1).click();
-	    return true;
+		driver.findElement(quickCreateDropdown1).click();
+		return true;
 	}
 
 	// Click methods for the "Create" menu options under the quick create dropdown
 	public boolean clickCreateAccount() {
-	    driver.findElement(createAccount).click();
-	    return true;
+		driver.findElement(createAccount).click();
+		return true;
 	}
 
 	public boolean clickCreateContact() {
-	    driver.findElement(createContact).click();
-	    return true;
+		driver.findElement(createContact).click();
+		return true;
 	}
 
 	public boolean clickCreateLead() {
-	    driver.findElement(createLead).click();
-	    return true;
+		driver.findElement(createLead).click();
+		return true;
 	}
 
 	public boolean clickCreateOpportunity() {
-	    driver.findElement(createOpportunity).click();
-	    return true;
+		driver.findElement(createOpportunity).click();
+		return true;
 	}
 
 	public boolean clickCreateMeeting() {
-	    driver.findElement(createMeeting).click();
-	    return true;
+		driver.findElement(createMeeting).click();
+		return true;
 	}
 
 	public boolean clickCreateCall() {
-	    driver.findElement(createCall).click();
-	    return true;
+		driver.findElement(createCall).click();
+		return true;
 	}
 
 	public boolean clickCreateTask() {
-	    driver.findElement(createTask).click();
-	    return true;
+		driver.findElement(createTask).click();
+		return true;
 	}
 
 	public boolean clickCreateCase() {
-	    driver.findElement(createCase).click();
-	    return true;
+		driver.findElement(createCase).click();
+		return true;
 	}
 
 	public boolean clickCreateEmail() {
-	    driver.findElement(createEmail).click();
-	    return true;
+		driver.findElement(createEmail).click();
+		return true;
 	}
 
 	public boolean clickCreateProjectTask() {
-	    driver.findElement(createProjectTask).click();
-	    return true;
+		driver.findElement(createProjectTask).click();
+		return true;
 	}
 
 	// Click method for the notifications icon
 	public boolean clickNotificationsButton() {
-	    driver.findElement(notificationsButton).click();
-	    return true;
+		driver.findElement(notificationsButton).click();
+		return true;
 	}
 
 	// Click method for the menu dropdown
 	public boolean clickMenuDropdown() {
-	    driver.findElement(menuDropdown).click();
-	    return true;
+		driver.findElement(menuDropdown).click();
+		return true;
 	}
 
 	// Click method for the user profile in the menu
 	public boolean clickUserProfile() {
-	    driver.findElement(userProfile).click();
-	    return true;
+		driver.findElement(userProfile).click();
+		return true;
 	}
 
 	// Click method for the logout option in the menu
 	public boolean clickLogoutOption() {
-	    driver.findElement(logoutOption).click();
-	    return true;
+		driver.findElement(logoutOption).click();
+		return true;
 	}
 
 	// Click method for the "Administration" link in the menu
 	public boolean clickAdminOption() {
-	    driver.findElement(adminOption).click();
-	    return true;
+		driver.findElement(adminOption).click();
+		return true;
 	}
 
 	// Click method for the "Preferences" link in the menu
 	public boolean clickPreferencesOption() {
-	    driver.findElement(preferencesOption).click();
-	    return true;
+		driver.findElement(preferencesOption).click();
+		return true;
 	}
-
 
 }
