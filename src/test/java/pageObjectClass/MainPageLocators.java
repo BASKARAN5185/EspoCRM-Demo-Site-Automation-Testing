@@ -5,9 +5,9 @@ import org.openqa.selenium.remote.RemoteWebDriver;
 
 import MyProject.demo.us.espocrm.com.BaseClass;
 
-public class MainPageLocators extends BaseClass {
+public class LandingPageLocators extends BaseClass {
 
-	MainPageLocators(RemoteWebDriver driver) {
+	public LandingPageLocators(RemoteWebDriver driver) {
 		BaseClass.driver = driver;
 	}
 
@@ -28,6 +28,7 @@ public class MainPageLocators extends BaseClass {
 	// ===== Support =====
 	By casesTab = By.cssSelector("li[data-name='Case'] > a.nav-link");
 	By knowledgeBaseTab = By.cssSelector("li[data-name='KnowledgeBaseArticle'] > a.nav-link");
+	By moreMenu = By.id("nav-more-tabs-dropdown");
 
 	// ===== More Dropdown =====
 	By moreDropdown = By.cssSelector("li.dropdown.more > a");
@@ -111,6 +112,8 @@ public class MainPageLocators extends BaseClass {
 
 	// Locator for the quick create dropdown
 	By quickCreateDropdown1 = By.id("nav-quick-create-dropdown");
+	By quickCreatClose=By.xpath("//span[@aria-hidden='true' and text()='×']");
+
 
 	// Locator for the "Create" menu options under the quick create dropdown
 	By createAccount = By.xpath("//a[@data-name='Account' and @data-action='quickCreate']");
@@ -205,6 +208,11 @@ public class MainPageLocators extends BaseClass {
 		return true;
 	}
 
+	public boolean moreMenuClickable() {
+		driver.findElement(moreMenu).click();
+		return true;
+	}
+
 	// ===== More Dropdown =====
 	public boolean clickMoreDropdown() {
 		driver.findElement(moreDropdown).click();
@@ -227,8 +235,17 @@ public class MainPageLocators extends BaseClass {
 		driver.findElement(documentsTab).click();
 		return true;
 	}
+	public boolean clickSalesAndPurchaseTab() {
+		driver.findElement(salesPurchaseGroup).click();
+		return true;
+	} 
 
 	// ===== Organization Group Tabs =====
+	public boolean clickOrganizationTab() {
+		driver.findElement(organizationGroup).click();
+		return true;
+	}
+	
 	public boolean clickUsersTab() {
 		driver.findElement(usersTab).click();
 		return true;
@@ -429,11 +446,13 @@ public class MainPageLocators extends BaseClass {
 		return true;
 	}
 
-	// Click method for the quick create dropdown
-	public boolean clickQuickCreateDropdown1() {
-		driver.findElement(quickCreateDropdown1).click();
+	
+	public boolean clickQuickCreateClose() {
+		driver.findElement(quickCreatClose).click();
 		return true;
 	}
+	
+	
 
 	// Click methods for the "Create" menu options under the quick create dropdown
 	public boolean clickCreateAccount() {
