@@ -16,4 +16,6 @@ public class LoginPageTest extends BaseClass {
 		login.clickTheLogin();
 		Assert.assertEquals("https://demo.us.espocrm.com/?l=en_US", getPageURl());
 	}
+	
+
 }

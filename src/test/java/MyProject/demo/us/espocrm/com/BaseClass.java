@@ -24,7 +24,7 @@ public class BaseClass {
 		ChromeOptions options = new ChromeOptions();
 
 		// Add desired Chrome options
-		// options.addArguments("--headless"); // Run in headless mode
+	    options.addArguments("--headless"); // Run in headless mode
 		options.addArguments("--disable-gpu"); // Disable GPU acceleration
 		options.addArguments("--window-size=1920x1080"); // Set window size
 		options.addArguments("--incognito"); // Open in incognito mode
