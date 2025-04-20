@@ -1,6 +1,7 @@
 package testBase;
 
 import org.testng.Assert;
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 import MyProject.demo.us.espocrm.com.BaseClass;
@@ -8,7 +9,15 @@ import pageObjectClass.LandingPageLocators;
 
 public class LandingPageTest extends BaseClass {
 
-	LandingPageLocators homePage = new LandingPageLocators(driver);
+	private LandingPageLocators homePage;
+
+    // Before each test, initialize the driver and page objects
+    @BeforeMethod
+    public void setUp() {
+        // Initialize the driver (Assuming driver setup is done in BaseClass)
+    //    WebDriver driver = getDriver();  // Replace with actual driver getter method
+        homePage = new LandingPageLocators(driver);
+    }
 
 	@Test(groups = { "Menu", "Smoke", "Regression" })
 	public void homeMenuIsClickable() {
@@ -255,119 +264,116 @@ public class LandingPageTest extends BaseClass {
 
 	@Test(groups = { "HomePageHeader", "Smoke", "Regression" })
 	public void quickCreateDropdownIsClickable() {
-	    Assert.assertTrue(homePage.clickQuickCreateDropdown(), "Quick Create dropdown is not clickable");
+		Assert.assertTrue(homePage.clickQuickCreateDropdown(), "Quick Create dropdown is not clickable");
 	}
 
 	@Test(groups = { "HomePageHeader", "Smoke", "Regression" })
 	public void quickCreateAccountIsClickable() {
-	    Assert.assertTrue(homePage.clickQuickCreateAccount(), "Quick Create > Account is not clickable");
-	    Assert.assertTrue(getPageURl().contains("#Account/create"), "URL does not contain '#Account/create'");
+		Assert.assertTrue(homePage.clickQuickCreateAccount(), "Quick Create > Account is not clickable");
+		Assert.assertTrue(getPageURl().contains("#Account/create"), "URL does not contain '#Account/create'");
 	}
 
 	@Test(groups = { "HomePageHeader", "Smoke", "Regression" })
 	public void quickCreateLeadIsClickable() {
-	    Assert.assertTrue(homePage.clickQuickCreateLead(), "Quick Create > Lead is not clickable");
-	    Assert.assertTrue(getPageURl().contains("#Lead/create"), "URL does not contain '#Lead/create'");
+		Assert.assertTrue(homePage.clickQuickCreateLead(), "Quick Create > Lead is not clickable");
+		Assert.assertTrue(getPageURl().contains("#Lead/create"), "URL does not contain '#Lead/create'");
 	}
 
 	@Test(groups = { "HomePageHeader", "Smoke", "Regression" })
 	public void notificationsIconIsClickable() {
-	    Assert.assertTrue(homePage.clickNotificationsIcon(), "Notifications icon is not clickable");
+		Assert.assertTrue(homePage.clickNotificationsIcon(), "Notifications icon is not clickable");
 	}
-
 
 	@Test(groups = { "HomePageHeader", "Smoke", "Regression" })
 	public void userMenuDropdownIsClickable() {
-	    Assert.assertTrue(homePage.clickUserMenuDropdown(), "User menu dropdown is not clickable");
-	    // No URL change, toggle action
+		Assert.assertTrue(homePage.clickUserMenuDropdown(), "User menu dropdown is not clickable");
+		// No URL change, toggle action
 	}
 
 	@Test(groups = { "HomePageHeader", "Smoke", "Regression" })
 	public void adminLinkIsClickable() {
-	    Assert.assertTrue(homePage.clickAdminLink(), "Admin link is not clickable");
-	    Assert.assertTrue(getPageURl().contains("#Admin"), "URL does not contain '#Admin' after clicking Admin");
+		Assert.assertTrue(homePage.clickAdminLink(), "Admin link is not clickable");
+		Assert.assertTrue(getPageURl().contains("#Admin"), "URL does not contain '#Admin' after clicking Admin");
 	}
 
 	@Test(groups = { "HomePageHeader", "Smoke", "Regression" })
 	public void preferencesLinkIsClickable() {
-	    Assert.assertTrue(homePage.clickPreferencesLink(), "Preferences link is not clickable");
-	    Assert.assertTrue(getPageURl().contains("#Preference"),
-	            "URL does not contain '#Preference' after clicking Preferences");
+		Assert.assertTrue(homePage.clickPreferencesLink(), "Preferences link is not clickable");
+		Assert.assertTrue(getPageURl().contains("#Preference"),
+				"URL does not contain '#Preference' after clicking Preferences");
 	}
 
 	@Test(groups = { "HomePageHeader", "Smoke", "Regression" })
 	public void logoutLinkIsClickable() {
-	    Assert.assertTrue(homePage.clickLogoutLink(), "Logout link is not clickable");
-	    Assert.assertEquals(getPageURl(), "https://demo.us.espocrm.com/", "URL mismatch after clicking Logout");
+		Assert.assertTrue(homePage.clickLogoutLink(), "Logout link is not clickable");
+		Assert.assertEquals(getPageURl(), "https://demo.us.espocrm.com/", "URL mismatch after clicking Logout");
 	}
 
 	@Test(groups = { "HomePageHeader", "Smoke", "Regression" })
 	public void aboutLinkIsClickable() {
-	    Assert.assertTrue(homePage.clickAboutLink(), "About link is not clickable");
-	    // No URL change, typically a modal opens
+		Assert.assertTrue(homePage.clickAboutLink(), "About link is not clickable");
+		// No URL change, typically a modal opens
 	}
 
 	@Test(groups = { "HomePageHeader", "Smoke", "Regression" })
 	public void dropdownButtonIsClickable() {
-	    Assert.assertTrue(homePage.clickDropdownButton(), "Dashboard dropdown button is not clickable");
-	    // No URL change expected
+		Assert.assertTrue(homePage.clickDropdownButton(), "Dashboard dropdown button is not clickable");
+		// No URL change expected
 	}
-
 
 	@Test(groups = { "HomePageHeader", "Smoke", "Regression" })
 	public void editDashboardItemIsClickable() {
-	    Assert.assertTrue(homePage.clickEditDashboardItem(), "Edit Dashboard option is not clickable");
-	    // No URL change expected
+		Assert.assertTrue(homePage.clickEditDashboardItem(), "Edit Dashboard option is not clickable");
+		// No URL change expected
 	}
 
 	@Test(groups = { "HomePageHeader", "Smoke", "Regression" })
 	public void addDashletItemIsClickable() {
-	    Assert.assertTrue(homePage.clickAddDashletItem(), "Add Dashlet option is not clickable");
-	    // No URL change expected
+		Assert.assertTrue(homePage.clickAddDashletItem(), "Add Dashlet option is not clickable");
+		// No URL change expected
 	}
 
 	@Test(groups = { "HomePageHeader", "Smoke", "Regression" })
 	public void myHomepageTabIsClickable() {
-	    homePage.clickHomeTab();
-	    Assert.assertTrue(homePage.clickMyHomepageTab(), "My Homepage tab is not clickable");
+		homePage.clickHomeTab();
+		Assert.assertTrue(homePage.clickMyHomepageTab(), "My Homepage tab is not clickable");
 	}
 
 	@Test(groups = { "HomePageHeader", "Smoke", "Regression" })
 	public void mySalesTabIsClickable() {
-	    homePage.clickHomeTab();
-	    Assert.assertTrue(homePage.clickMySalesTab(), "My Sales tab is not clickable");
+		homePage.clickHomeTab();
+		Assert.assertTrue(homePage.clickMySalesTab(), "My Sales tab is not clickable");
 	}
 
 	@Test(groups = { "HomePageHeader", "Smoke", "Regression" })
 	public void salesAnalyticsTabIsClickable() {
-	    homePage.clickHomeTab();
-	    Assert.assertTrue(homePage.clickSalesAnalyticsTab(), "Sales Analytics tab is not clickable");
+		homePage.clickHomeTab();
+		Assert.assertTrue(homePage.clickSalesAnalyticsTab(), "Sales Analytics tab is not clickable");
 	}
 
 	@Test(groups = { "HomePageHeader", "Smoke", "Regression" })
 	public void callCenterDataTabIsClickable() {
-	    homePage.clickHomeTab();
-	    Assert.assertTrue(homePage.clickCallCenterDataTab(), "Call Center Data tab is not clickable");
+		homePage.clickHomeTab();
+		Assert.assertTrue(homePage.clickCallCenterDataTab(), "Call Center Data tab is not clickable");
 	}
 
 	@Test(groups = { "HomePageHeader", "Smoke", "Regression" })
 	public void salesManagerTabIsClickable() {
-	    homePage.clickHomeTab();
-	    Assert.assertTrue(homePage.clickSalesManagerTab(), "Sales Manager tab is not clickable");
+		homePage.clickHomeTab();
+		Assert.assertTrue(homePage.clickSalesManagerTab(), "Sales Manager tab is not clickable");
 	}
 
 	@Test(groups = { "HomePageHeader", "Smoke", "Regression" })
 	public void activeTabIsClickable() {
-	    homePage.clickHomeTab();
-	    Assert.assertTrue(homePage.clickActiveTab(), "Active tab is not clickable");
+		homePage.clickHomeTab();
+		Assert.assertTrue(homePage.clickActiveTab(), "Active tab is not clickable");
 	}
 
 	@Test(groups = { "HomePageHeader", "Smoke", "Regression" })
 	public void globalSearchInputIsClickable() {
-	    homePage.clickHomeTab();
-	    Assert.assertTrue(homePage.clickGlobalSearchInput(), "Global search input is not clickable");
+		homePage.clickHomeTab();
+		Assert.assertTrue(homePage.clickGlobalSearchInput(), "Global search input is not clickable");
 	}
-
 
 	@Test(groups = { "HomePageHeader", "Smoke", "Regression" })
 	public void globalSearchButtonIsClickable() {
@@ -382,86 +388,86 @@ public class LandingPageTest extends BaseClass {
 		Assert.assertTrue(homePage.clickQuickCreateDropdown(), "Quick Create dropdown 1 is not clickable");
 
 	}
-	@Test(groups = { "HomePageHeader", "NewCreate", "Smoke", "Regression" })
-	public void createAccountIsClickable() { 
-	    homePage.clickHomeTab(); 
-	    homePage.clickQuickCreateDropdown();  
-	    Assert.assertTrue(homePage.clickCreateAccount(), "Create Account is not clickable"); 
-	    homePage.clickQuickCreateClose(); 
-	}  
 
 	@Test(groups = { "HomePageHeader", "NewCreate", "Smoke", "Regression" })
-	public void createContactIsClickable() { 
-	    homePage.clickHomeTab(); 
-	    homePage.clickQuickCreateDropdown();  
-	    Assert.assertTrue(homePage.clickCreateContact(), "Create Contact is not clickable"); 
-	    homePage.clickQuickCreateClose(); 
-	}  
+	public void createAccountIsClickable() {
+		homePage.clickHomeTab();
+		homePage.clickQuickCreateDropdown();
+		Assert.assertTrue(homePage.clickCreateAccount(), "Create Account is not clickable");
+		homePage.clickQuickCreateClose();
+	}
 
 	@Test(groups = { "HomePageHeader", "NewCreate", "Smoke", "Regression" })
-	public void createLeadIsClickable() { 
-	    homePage.clickHomeTab(); 
-	    homePage.clickQuickCreateDropdown();  
-	    Assert.assertTrue(homePage.clickCreateLead(), "Create Lead is not clickable"); 
-	    homePage.clickQuickCreateClose(); 
-	}  
+	public void createContactIsClickable() {
+		homePage.clickHomeTab();
+		homePage.clickQuickCreateDropdown();
+		Assert.assertTrue(homePage.clickCreateContact(), "Create Contact is not clickable");
+		homePage.clickQuickCreateClose();
+	}
 
 	@Test(groups = { "HomePageHeader", "NewCreate", "Smoke", "Regression" })
-	public void createOpportunityIsClickable() { 
-	    homePage.clickHomeTab(); 
-	    homePage.clickQuickCreateDropdown();  
-	    Assert.assertTrue(homePage.clickCreateOpportunity(), "Create Opportunity is not clickable"); 
-	    homePage.clickQuickCreateClose(); 
+	public void createLeadIsClickable() {
+		homePage.clickHomeTab();
+		homePage.clickQuickCreateDropdown();
+		Assert.assertTrue(homePage.clickCreateLead(), "Create Lead is not clickable");
+		homePage.clickQuickCreateClose();
+	}
+
+	@Test(groups = { "HomePageHeader", "NewCreate", "Smoke", "Regression" })
+	public void createOpportunityIsClickable() {
+		homePage.clickHomeTab();
+		homePage.clickQuickCreateDropdown();
+		Assert.assertTrue(homePage.clickCreateOpportunity(), "Create Opportunity is not clickable");
+		homePage.clickQuickCreateClose();
 	}
 
 	@Test(groups = { "HomePageHeader", "NewCreate", "Smoke", "Regression" })
 	public void createMeetingIsClickable() {
-	    homePage.clickHomeTab();
-	    homePage.clickQuickCreateDropdown();
-	    Assert.assertTrue(homePage.clickCreateMeeting(), "Create Meeting is not clickable");
-	    homePage.clickQuickCreateClose();
+		homePage.clickHomeTab();
+		homePage.clickQuickCreateDropdown();
+		Assert.assertTrue(homePage.clickCreateMeeting(), "Create Meeting is not clickable");
+		homePage.clickQuickCreateClose();
 	}
 
 	@Test(groups = { "HomePageHeader", "NewCreate", "Smoke", "Regression" })
 	public void createCallIsClickable() {
-	    homePage.clickHomeTab();
-	    homePage.clickQuickCreateDropdown();
-	    Assert.assertTrue(homePage.clickCreateCall(), "Create Call is not clickable");
-	    homePage.clickQuickCreateClose();
+		homePage.clickHomeTab();
+		homePage.clickQuickCreateDropdown();
+		Assert.assertTrue(homePage.clickCreateCall(), "Create Call is not clickable");
+		homePage.clickQuickCreateClose();
 	}
 
 	@Test(groups = { "HomePageHeader", "NewCreate", "Smoke", "Regression" })
 	public void createTaskIsClickable() {
-	    homePage.clickHomeTab();
-	    homePage.clickQuickCreateDropdown();
-	    Assert.assertTrue(homePage.clickCreateTask(), "Create Task is not clickable");
-	    homePage.clickQuickCreateClose();
+		homePage.clickHomeTab();
+		homePage.clickQuickCreateDropdown();
+		Assert.assertTrue(homePage.clickCreateTask(), "Create Task is not clickable");
+		homePage.clickQuickCreateClose();
 	}
 
 	@Test(groups = { "HomePageHeader", "NewCreate", "Smoke", "Regression" })
 	public void createCaseIsClickable() {
-	    homePage.clickHomeTab();
-	    homePage.clickQuickCreateDropdown();
-	    Assert.assertTrue(homePage.clickCreateCase(), "Create Case is not clickable");
-	    homePage.clickQuickCreateClose();
+		homePage.clickHomeTab();
+		homePage.clickQuickCreateDropdown();
+		Assert.assertTrue(homePage.clickCreateCase(), "Create Case is not clickable");
+		homePage.clickQuickCreateClose();
 	}
 
 	@Test(groups = { "HomePageHeader", "NewCreate", "Smoke", "Regression" })
 	public void createEmailIsClickable() {
-	    homePage.clickHomeTab();
-	    homePage.clickQuickCreateDropdown();
-	    Assert.assertTrue(homePage.clickCreateEmail(), "Create Email is not clickable");
-	    homePage.clickQuickCreateClose();
+		homePage.clickHomeTab();
+		homePage.clickQuickCreateDropdown();
+		Assert.assertTrue(homePage.clickCreateEmail(), "Create Email is not clickable");
+		homePage.clickQuickCreateClose();
 	}
 
 	@Test(groups = { "HomePageHeader", "NewCreate", "Smoke", "Regression" })
 	public void createProjectTaskIsClickable() {
-	    homePage.clickHomeTab();
-	    homePage.clickQuickCreateDropdown();
-	    Assert.assertTrue(homePage.clickCreateProjectTask(), "Create Project Task is not clickable");
-	    homePage.clickQuickCreateClose();
+		homePage.clickHomeTab();
+		homePage.clickQuickCreateDropdown();
+		Assert.assertTrue(homePage.clickCreateProjectTask(), "Create Project Task is not clickable");
+		homePage.clickQuickCreateClose();
 	}
-
 
 	@Test(groups = { "HomePageHeader", "Smoke", "Regression" })
 	public void notificationsButtonIsClickable() {

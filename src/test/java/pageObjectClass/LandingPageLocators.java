@@ -112,8 +112,7 @@ public class LandingPageLocators extends BaseClass {
 
 	// Locator for the quick create dropdown
 	By quickCreateDropdown1 = By.id("nav-quick-create-dropdown");
-	By quickCreatClose=By.xpath("//span[@aria-hidden='true' and text()='×']");
-
+	By quickCreatClose = By.xpath("//span[@aria-hidden='true' and text()='×']");
 
 	// Locator for the "Create" menu options under the quick create dropdown
 	By createAccount = By.xpath("//a[@data-name='Account' and @data-action='quickCreate']");
@@ -235,17 +234,18 @@ public class LandingPageLocators extends BaseClass {
 		driver.findElement(documentsTab).click();
 		return true;
 	}
+
 	public boolean clickSalesAndPurchaseTab() {
 		driver.findElement(salesPurchaseGroup).click();
 		return true;
-	} 
+	}
 
 	// ===== Organization Group Tabs =====
 	public boolean clickOrganizationTab() {
 		driver.findElement(organizationGroup).click();
 		return true;
 	}
-	
+
 	public boolean clickUsersTab() {
 		driver.findElement(usersTab).click();
 		return true;
@@ -446,13 +446,10 @@ public class LandingPageLocators extends BaseClass {
 		return true;
 	}
 
-	
 	public boolean clickQuickCreateClose() {
 		driver.findElement(quickCreatClose).click();
 		return true;
 	}
-	
-	
 
 	// Click methods for the "Create" menu options under the quick create dropdown
 	public boolean clickCreateAccount() {

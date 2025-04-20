@@ -3,13 +3,73 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testBase.LoginPageTest">
+      <class name="testBase.AccountPageTest">
         <methods>
+          <include name="filterOptionStarredIsSelectable"/>
+          <include name="testEnterShippingStreet"/>
+          <include name="addFilterDropdownIsClickable"/>
+          <include name="testEnterBillingPostalCode"/>
+          <include name="createdByFilterOptionIsClickable"/>
+          <include name="followedCheckboxIsChecked"/>
+          <include name="websiteFilterIsClickable"/>
+          <include name="teamsFilterOptionIsClickable"/>
+          <include name="modifiedAtFilterOptionIsClickable"/>
+          <include name="testClickCancelButton"/>
+          <include name="descriptionFilterOptionIsClickable"/>
+          <include name="phoneFilterOptionIsClickable"/>
+          <include name="testClickTeamSelectButton"/>
+          <include name="testClickCopyBillingButton"/>
+          <include name="testEnterPhone"/>
+          <include name="onlyMyCheckboxIsChecked"/>
+          <include name="filterOptionRecentlyCreatedIsSelectable"/>
+          <include name="testToggleCityColumn"/>
+          <include name="resetButtonIsClickable"/>
+          <include name="testClickSaveAndNewButton"/>
+          <include name="filterOptionAllIsSelectable"/>
+          <include name="testEnterBillingState"/>
+          <include name="testHeaderTitleVisibility"/>
+          <include name="accountsMenuIsClickable"/>
+          <include name="testPaginationNextClick"/>
+          <include name="testEnterBillingCountry"/>
+          <include name="filterDropdownIsClickable"/>
+          <include name="testEnterShippingCountry"/>
+          <include name="testEnterAssignedUser"/>
+          <include name="industryFilterOptionIsClickable"/>
+          <include name="testEnterTeam"/>
+          <include name="testEnterBillingCity"/>
+          <include name="testPhoneTypeDropdownVisibility"/>
+          <include name="testClickSaveButton"/>
+          <include name="testEnterShippingState"/>
+          <include name="shippingAddressFilterIsClickable"/>
           <include name="teardown"/>
+          <include name="testEnterDescription"/>
           <include name="setUpTheBrowser"/>
-          <include name="loginTheEspoCRM"/>
+          <include name="testEnterEmail"/>
+          <include name="createAccountButtonIsClickable"/>
+          <include name="testClickSaveAndContinueButton"/>
+          <include name="testEnterBillingStreet"/>
+          <include name="searchButtonIsClickable"/>
+          <include name="testEnterShippingCity"/>
+          <include name="filterAssignedUserOptionIsClickable"/>
+          <include name="typeFilterOptionIsClickable"/>
+          <include name="testToggleTypeColumn"/>
+          <include name="testToggleCountryColumn"/>
+          <include name="targetListsFilterOptionIsClickable"/>
+          <include name="testEnterShippingPostalCode"/>
+          <include name="testToggleIndustryColumn"/>
+          <include name="testClickAssignedUserSelect"/>
+          <include name="billingAddressFilterIsClickable"/>
+          <include name="testClickAssignedUserClear"/>
+          <include name="searchTextIsEnteredSuccessfully"/>
+          <include name="createdAtFilterOptionIsClickable"/>
+          <include name="emailFilterOptionIsClickable"/>
+          <include name="testEnterWebsite"/>
+          <include name="testBreadcrumbsVisibility"/>
+          <include name="testToggleColumnResize"/>
+          <include name="testEnterName"/>
+          <include name="countryFilterOptionIsClickable"/>
         </methods>
-      </class> <!-- testBase.LoginPageTest -->
+      </class> <!-- testBase.AccountPageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

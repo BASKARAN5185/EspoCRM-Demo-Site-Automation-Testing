@@ -6,57 +6,23 @@
   </listeners>
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="testBase.LandingPageTest">
+      <class name="testBase.AccountPageTest">
         <methods>
-          <include name="inventoryAdjustmentsTabIsClickable"/>
-          <include name="inventoryNumbersTabIsClickable"/>
-          <include name="quotesTabIsClickable"/>
-          <include name="quickCreateDropdown1IsClickable"/>
-          <include name="menuDropdownIsClickable"/>
-          <include name="usersTabIsClickable"/>
-          <include name="workingTimeCalendarsTabIsClickable"/>
-          <include name="quickCreateDropdownIsClickable"/>
-          <include name="mySalesTabIsClickable"/>
-          <include name="quickCreateLeadIsClickable"/>
-          <include name="userProfileIsClickable"/>
-          <include name="targetListsTabIsClickable"/>
+          <include name="testClickSaveAndContinueButton"/>
+          <include name="billingAddressFilterIsClickable"/>
+          <include name="filterOptionAllIsSelectable"/>
+          <include name="testClickSaveAndNewButton"/>
+          <include name="testClickCopyBillingButton"/>
+          <include name="testToggleCountryColumn"/>
+          <include name="testPhoneTypeDropdownVisibility"/>
+          <include name="testToggleCityColumn"/>
           <include name="teardown"/>
+          <include name="testPaginationNextClick"/>
           <include name="setUpTheBrowser"/>
-          <include name="aboutLinkIsClickable"/>
-          <include name="salesOrdersTabIsClickable"/>
-          <include name="myHomepageTabIsClickable"/>
-          <include name="logoutOptionIsClickable"/>
-          <include name="notificationsButtonIsClickable"/>
-          <include name="returnOrdersTabIsClickable"/>
-          <include name="quickCreateAccountIsClickable"/>
-          <include name="leadsMenuIsClickable"/>
-          <include name="meetingsTabIsClickable"/>
-          <include name="productsTabIsClickable"/>
-          <include name="teamsTabIsClickable"/>
-          <include name="moreDropdownIsClickable"/>
-          <include name="inventoryTransactionsTabIsClickable"/>
-          <include name="adminLinkIsClickable"/>
-          <include name="userMenuDropdownIsClickable"/>
-          <include name="logoutLinkIsClickable"/>
-          <include name="adminOptionIsClickable"/>
-          <include name="knowledgeBaseTabIsClickable"/>
-          <include name="streamTabIsClickable"/>
-          <include name="addDashletItemIsClickable"/>
-          <include name="warehousesTabIsClickable"/>
-          <include name="opportunitiesMenuIsClickable"/>
-          <include name="preferencesOptionIsClickable"/>
-          <include name="reportsTabIsClickable"/>
-          <include name="preferencesLinkIsClickable"/>
-          <include name="purchaseOrdersTabIsClickable"/>
-          <include name="notificationsIconIsClickable"/>
-          <include name="tasksTabIsClickable"/>
-          <include name="homeMenuIsClickable"/>
-          <include name="projectsTabIsClickable"/>
-          <include name="salesAnalyticsTabIsClickable"/>
-          <include name="salesManagerTabIsClickable"/>
-          <include name="editDashboardItemIsClickable"/>
+          <include name="testToggleColumnResize"/>
+          <include name="testToggleIndustryColumn"/>
         </methods>
-      </class> <!-- testBase.LandingPageTest -->
+      </class> <!-- testBase.AccountPageTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

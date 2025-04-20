@@ -24,7 +24,10 @@ public class BaseClass {
 		ChromeOptions options = new ChromeOptions();
 
 		// Add desired Chrome options
-	    options.addArguments("--headless"); // Run in headless mode
+		// options.addArguments("--headless"); // Run in headless mode
+		options.addArguments("--incognito"); // Incognito mode
+		options.addArguments("--force-dark-mode"); // Force dark mode (Chrome-level)
+		options.addArguments("--enable-features=WebContentsForceDark"); // Enable dark for web contents
 		options.addArguments("--disable-gpu"); // Disable GPU acceleration
 		options.addArguments("--window-size=1920x1080"); // Set window size
 		options.addArguments("--incognito"); // Open in incognito mode
@@ -36,13 +39,18 @@ public class BaseClass {
 		driver = new ChromeDriver(options);
 		driver.get("https://demo.us.espocrm.com/");
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
+		// This will delete all cookies for the current domain
+		driver.manage().deleteAllCookies();
+
+		// Optional: refresh or continue testing
+		driver.navigate().refresh();
 
 	}
 
 	@AfterTest
 	public void teardown() {
 
-		driver.quit();
+		// driver.quit();
 
 	}
 
@@ -51,7 +59,7 @@ public class BaseClass {
 		return geturl;
 
 	}
-	
+
 	public String captureScreen(String testName) throws IOException {
 		// Take the screenshot
 		File screenshot = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
@@ -75,5 +83,4 @@ public class BaseClass {
 		return destination.getAbsolutePath(); // Return the path to the screenshot
 	}
 
-	
 }
