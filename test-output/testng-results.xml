@@ -1,257 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="8" total="70" passed="51" failed="11" skipped="0">
+<testng-results ignored="0" total="12" passed="1" failed="11" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-04-20T12:33:20 IST" name="Suite" finished-at="2025-04-20T12:42:00 IST" duration-ms="520475">
+  <suite started-at="2025-04-21T12:37:34 IST" name="Suite" finished-at="2025-04-21T12:42:13 IST" duration-ms="278589">
     <groups>
-      <group name="Sanity">
-        <method signature="AccountPageTest.addFilterDropdownIsClickable()[pri:0, instance:testBase.AccountPageTest@7161d8d1]" name="addFilterDropdownIsClickable" class="testBase.AccountPageTest"/>
-        <method signature="AccountPageTest.billingAddressFilterIsClickable()[pri:0, instance:testBase.AccountPageTest@7161d8d1]" name="billingAddressFilterIsClickable" class="testBase.AccountPageTest"/>
-        <method signature="AccountPageTest.countryFilterOptionIsClickable()[pri:0, instance:testBase.AccountPageTest@7161d8d1]" name="countryFilterOptionIsClickable" class="testBase.AccountPageTest"/>
-        <method signature="AccountPageTest.createdAtFilterOptionIsClickable()[pri:0, instance:testBase.AccountPageTest@7161d8d1]" name="createdAtFilterOptionIsClickable" class="testBase.AccountPageTest"/>
-        <method signature="AccountPageTest.createdByFilterOptionIsClickable()[pri:0, instance:testBase.AccountPageTest@7161d8d1]" name="createdByFilterOptionIsClickable" class="testBase.AccountPageTest"/>
-        <method signature="AccountPageTest.descriptionFilterOptionIsClickable()[pri:0, instance:testBase.AccountPageTest@7161d8d1]" name="descriptionFilterOptionIsClickable" class="testBase.AccountPageTest"/>
-        <method signature="AccountPageTest.emailFilterOptionIsClickable()[pri:0, instance:testBase.AccountPageTest@7161d8d1]" name="emailFilterOptionIsClickable" class="testBase.AccountPageTest"/>
-        <method signature="AccountPageTest.filterAssignedUserOptionIsClickable()[pri:0, instance:testBase.AccountPageTest@7161d8d1]" name="filterAssignedUserOptionIsClickable" class="testBase.AccountPageTest"/>
-        <method signature="AccountPageTest.filterDropdownIsClickable()[pri:0, instance:testBase.AccountPageTest@7161d8d1]" name="filterDropdownIsClickable" class="testBase.AccountPageTest"/>
-        <method signature="AccountPageTest.filterOptionRecentlyCreatedIsSelectable()[pri:0, instance:testBase.AccountPageTest@7161d8d1]" name="filterOptionRecentlyCreatedIsSelectable" class="testBase.AccountPageTest"/>
-        <method signature="AccountPageTest.filterOptionStarredIsSelectable()[pri:0, instance:testBase.AccountPageTest@7161d8d1]" name="filterOptionStarredIsSelectable" class="testBase.AccountPageTest"/>
-        <method signature="AccountPageTest.followedCheckboxIsChecked()[pri:0, instance:testBase.AccountPageTest@7161d8d1]" name="followedCheckboxIsChecked" class="testBase.AccountPageTest"/>
-        <method signature="AccountPageTest.industryFilterOptionIsClickable()[pri:0, instance:testBase.AccountPageTest@7161d8d1]" name="industryFilterOptionIsClickable" class="testBase.AccountPageTest"/>
-        <method signature="AccountPageTest.modifiedAtFilterOptionIsClickable()[pri:0, instance:testBase.AccountPageTest@7161d8d1]" name="modifiedAtFilterOptionIsClickable" class="testBase.AccountPageTest"/>
-        <method signature="AccountPageTest.onlyMyCheckboxIsChecked()[pri:0, instance:testBase.AccountPageTest@7161d8d1]" name="onlyMyCheckboxIsChecked" class="testBase.AccountPageTest"/>
-        <method signature="AccountPageTest.phoneFilterOptionIsClickable()[pri:0, instance:testBase.AccountPageTest@7161d8d1]" name="phoneFilterOptionIsClickable" class="testBase.AccountPageTest"/>
-        <method signature="AccountPageTest.resetButtonIsClickable()[pri:0, instance:testBase.AccountPageTest@7161d8d1]" name="resetButtonIsClickable" class="testBase.AccountPageTest"/>
-        <method signature="AccountPageTest.searchButtonIsClickable()[pri:0, instance:testBase.AccountPageTest@7161d8d1]" name="searchButtonIsClickable" class="testBase.AccountPageTest"/>
-        <method signature="AccountPageTest.searchTextIsEnteredSuccessfully()[pri:0, instance:testBase.AccountPageTest@7161d8d1]" name="searchTextIsEnteredSuccessfully" class="testBase.AccountPageTest"/>
-        <method signature="AccountPageTest.shippingAddressFilterIsClickable()[pri:0, instance:testBase.AccountPageTest@7161d8d1]" name="shippingAddressFilterIsClickable" class="testBase.AccountPageTest"/>
-        <method signature="AccountPageTest.teamsFilterOptionIsClickable()[pri:0, instance:testBase.AccountPageTest@7161d8d1]" name="teamsFilterOptionIsClickable" class="testBase.AccountPageTest"/>
-        <method signature="AccountPageTest.testBreadcrumbsVisibility()[pri:0, instance:testBase.AccountPageTest@7161d8d1]" name="testBreadcrumbsVisibility" class="testBase.AccountPageTest"/>
-        <method signature="AccountPageTest.testClickAssignedUserClear()[pri:0, instance:testBase.AccountPageTest@7161d8d1]" name="testClickAssignedUserClear" class="testBase.AccountPageTest"/>
-        <method signature="AccountPageTest.testClickAssignedUserSelect()[pri:0, instance:testBase.AccountPageTest@7161d8d1]" name="testClickAssignedUserSelect" class="testBase.AccountPageTest"/>
-        <method signature="AccountPageTest.testClickCopyBillingButton()[pri:0, instance:testBase.AccountPageTest@7161d8d1]" name="testClickCopyBillingButton" class="testBase.AccountPageTest"/>
-        <method signature="AccountPageTest.testClickSaveAndContinueButton()[pri:0, instance:testBase.AccountPageTest@7161d8d1]" name="testClickSaveAndContinueButton" class="testBase.AccountPageTest"/>
-        <method signature="AccountPageTest.testClickSaveAndNewButton()[pri:0, instance:testBase.AccountPageTest@7161d8d1]" name="testClickSaveAndNewButton" class="testBase.AccountPageTest"/>
-        <method signature="AccountPageTest.testClickTeamSelectButton()[pri:0, instance:testBase.AccountPageTest@7161d8d1]" name="testClickTeamSelectButton" class="testBase.AccountPageTest"/>
-        <method signature="AccountPageTest.testEnterAssignedUser()[pri:0, instance:testBase.AccountPageTest@7161d8d1]" name="testEnterAssignedUser" class="testBase.AccountPageTest"/>
-        <method signature="AccountPageTest.testEnterBillingCity()[pri:0, instance:testBase.AccountPageTest@7161d8d1]" name="testEnterBillingCity" class="testBase.AccountPageTest"/>
-        <method signature="AccountPageTest.testEnterBillingCountry()[pri:0, instance:testBase.AccountPageTest@7161d8d1]" name="testEnterBillingCountry" class="testBase.AccountPageTest"/>
-        <method signature="AccountPageTest.testEnterBillingPostalCode()[pri:0, instance:testBase.AccountPageTest@7161d8d1]" name="testEnterBillingPostalCode" class="testBase.AccountPageTest"/>
-        <method signature="AccountPageTest.testEnterBillingStreet()[pri:0, instance:testBase.AccountPageTest@7161d8d1]" name="testEnterBillingStreet" class="testBase.AccountPageTest"/>
-        <method signature="AccountPageTest.testEnterDescription()[pri:0, instance:testBase.AccountPageTest@7161d8d1]" name="testEnterDescription" class="testBase.AccountPageTest"/>
-        <method signature="AccountPageTest.testEnterEmail()[pri:0, instance:testBase.AccountPageTest@7161d8d1]" name="testEnterEmail" class="testBase.AccountPageTest"/>
-        <method signature="AccountPageTest.testEnterName()[pri:0, instance:testBase.AccountPageTest@7161d8d1]" name="testEnterName" class="testBase.AccountPageTest"/>
-        <method signature="AccountPageTest.testEnterPhone()[pri:0, instance:testBase.AccountPageTest@7161d8d1]" name="testEnterPhone" class="testBase.AccountPageTest"/>
-        <method signature="AccountPageTest.testEnterShippingCity()[pri:0, instance:testBase.AccountPageTest@7161d8d1]" name="testEnterShippingCity" class="testBase.AccountPageTest"/>
-        <method signature="AccountPageTest.testEnterShippingState()[pri:0, instance:testBase.AccountPageTest@7161d8d1]" name="testEnterShippingState" class="testBase.AccountPageTest"/>
-        <method signature="AccountPageTest.testEnterShippingStreet()[pri:0, instance:testBase.AccountPageTest@7161d8d1]" name="testEnterShippingStreet" class="testBase.AccountPageTest"/>
-        <method signature="AccountPageTest.testEnterTeam()[pri:0, instance:testBase.AccountPageTest@7161d8d1]" name="testEnterTeam" class="testBase.AccountPageTest"/>
-        <method signature="AccountPageTest.testEnterWebsite()[pri:0, instance:testBase.AccountPageTest@7161d8d1]" name="testEnterWebsite" class="testBase.AccountPageTest"/>
-        <method signature="AccountPageTest.testPaginationNextClick()[pri:0, instance:testBase.AccountPageTest@7161d8d1]" name="testPaginationNextClick" class="testBase.AccountPageTest"/>
-        <method signature="AccountPageTest.testPhoneTypeDropdownVisibility()[pri:0, instance:testBase.AccountPageTest@7161d8d1]" name="testPhoneTypeDropdownVisibility" class="testBase.AccountPageTest"/>
-        <method signature="AccountPageTest.testToggleCityColumn()[pri:0, instance:testBase.AccountPageTest@7161d8d1]" name="testToggleCityColumn" class="testBase.AccountPageTest"/>
-        <method signature="AccountPageTest.testToggleColumnResize()[pri:0, instance:testBase.AccountPageTest@7161d8d1]" name="testToggleColumnResize" class="testBase.AccountPageTest"/>
-        <method signature="AccountPageTest.testToggleTypeColumn()[pri:0, instance:testBase.AccountPageTest@7161d8d1]" name="testToggleTypeColumn" class="testBase.AccountPageTest"/>
-        <method signature="AccountPageTest.websiteFilterIsClickable()[pri:0, instance:testBase.AccountPageTest@7161d8d1]" name="websiteFilterIsClickable" class="testBase.AccountPageTest"/>
-        <method signature="AccountPageTest.createAccountButtonIsClickable()[pri:0, instance:testBase.AccountPageTest@7161d8d1]" name="createAccountButtonIsClickable" class="testBase.AccountPageTest"/>
-        <method signature="AccountPageTest.testClickSaveButton()[pri:0, instance:testBase.AccountPageTest@7161d8d1]" name="testClickSaveButton" class="testBase.AccountPageTest"/>
-        <method signature="AccountPageTest.testClickCancelButton()[pri:0, instance:testBase.AccountPageTest@7161d8d1]" name="testClickCancelButton" class="testBase.AccountPageTest"/>
-        <method signature="AccountPageTest.filterOptionAllIsSelectable()[pri:0, instance:testBase.AccountPageTest@7161d8d1]" name="filterOptionAllIsSelectable" class="testBase.AccountPageTest"/>
-        <method signature="AccountPageTest.targetListsFilterOptionIsClickable()[pri:0, instance:testBase.AccountPageTest@7161d8d1]" name="targetListsFilterOptionIsClickable" class="testBase.AccountPageTest"/>
-        <method signature="AccountPageTest.testEnterBillingState()[pri:0, instance:testBase.AccountPageTest@7161d8d1]" name="testEnterBillingState" class="testBase.AccountPageTest"/>
-        <method signature="AccountPageTest.testEnterShippingCountry()[pri:0, instance:testBase.AccountPageTest@7161d8d1]" name="testEnterShippingCountry" class="testBase.AccountPageTest"/>
-        <method signature="AccountPageTest.testEnterShippingPostalCode()[pri:0, instance:testBase.AccountPageTest@7161d8d1]" name="testEnterShippingPostalCode" class="testBase.AccountPageTest"/>
-        <method signature="AccountPageTest.testHeaderTitleVisibility()[pri:0, instance:testBase.AccountPageTest@7161d8d1]" name="testHeaderTitleVisibility" class="testBase.AccountPageTest"/>
-        <method signature="AccountPageTest.testToggleCountryColumn()[pri:0, instance:testBase.AccountPageTest@7161d8d1]" name="testToggleCountryColumn" class="testBase.AccountPageTest"/>
-        <method signature="AccountPageTest.testToggleIndustryColumn()[pri:0, instance:testBase.AccountPageTest@7161d8d1]" name="testToggleIndustryColumn" class="testBase.AccountPageTest"/>
-        <method signature="AccountPageTest.typeFilterOptionIsClickable()[pri:0, instance:testBase.AccountPageTest@7161d8d1]" name="typeFilterOptionIsClickable" class="testBase.AccountPageTest"/>
-      </group> <!-- Sanity -->
-      <group name="AccountPage">
-        <method signature="AccountPageTest.accountsMenuIsClickable()[pri:-1, instance:testBase.AccountPageTest@7161d8d1]" name="accountsMenuIsClickable" class="testBase.AccountPageTest"/>
-        <method signature="AccountPageTest.addFilterDropdownIsClickable()[pri:0, instance:testBase.AccountPageTest@7161d8d1]" name="addFilterDropdownIsClickable" class="testBase.AccountPageTest"/>
-        <method signature="AccountPageTest.billingAddressFilterIsClickable()[pri:0, instance:testBase.AccountPageTest@7161d8d1]" name="billingAddressFilterIsClickable" class="testBase.AccountPageTest"/>
-        <method signature="AccountPageTest.countryFilterOptionIsClickable()[pri:0, instance:testBase.AccountPageTest@7161d8d1]" name="countryFilterOptionIsClickable" class="testBase.AccountPageTest"/>
-        <method signature="AccountPageTest.createdAtFilterOptionIsClickable()[pri:0, instance:testBase.AccountPageTest@7161d8d1]" name="createdAtFilterOptionIsClickable" class="testBase.AccountPageTest"/>
-        <method signature="AccountPageTest.createdByFilterOptionIsClickable()[pri:0, instance:testBase.AccountPageTest@7161d8d1]" name="createdByFilterOptionIsClickable" class="testBase.AccountPageTest"/>
-        <method signature="AccountPageTest.descriptionFilterOptionIsClickable()[pri:0, instance:testBase.AccountPageTest@7161d8d1]" name="descriptionFilterOptionIsClickable" class="testBase.AccountPageTest"/>
-        <method signature="AccountPageTest.emailFilterOptionIsClickable()[pri:0, instance:testBase.AccountPageTest@7161d8d1]" name="emailFilterOptionIsClickable" class="testBase.AccountPageTest"/>
-        <method signature="AccountPageTest.filterAssignedUserOptionIsClickable()[pri:0, instance:testBase.AccountPageTest@7161d8d1]" name="filterAssignedUserOptionIsClickable" class="testBase.AccountPageTest"/>
-        <method signature="AccountPageTest.filterDropdownIsClickable()[pri:0, instance:testBase.AccountPageTest@7161d8d1]" name="filterDropdownIsClickable" class="testBase.AccountPageTest"/>
-        <method signature="AccountPageTest.filterOptionRecentlyCreatedIsSelectable()[pri:0, instance:testBase.AccountPageTest@7161d8d1]" name="filterOptionRecentlyCreatedIsSelectable" class="testBase.AccountPageTest"/>
-        <method signature="AccountPageTest.filterOptionStarredIsSelectable()[pri:0, instance:testBase.AccountPageTest@7161d8d1]" name="filterOptionStarredIsSelectable" class="testBase.AccountPageTest"/>
-        <method signature="AccountPageTest.followedCheckboxIsChecked()[pri:0, instance:testBase.AccountPageTest@7161d8d1]" name="followedCheckboxIsChecked" class="testBase.AccountPageTest"/>
-        <method signature="AccountPageTest.industryFilterOptionIsClickable()[pri:0, instance:testBase.AccountPageTest@7161d8d1]" name="industryFilterOptionIsClickable" class="testBase.AccountPageTest"/>
-        <method signature="AccountPageTest.modifiedAtFilterOptionIsClickable()[pri:0, instance:testBase.AccountPageTest@7161d8d1]" name="modifiedAtFilterOptionIsClickable" class="testBase.AccountPageTest"/>
-        <method signature="AccountPageTest.onlyMyCheckboxIsChecked()[pri:0, instance:testBase.AccountPageTest@7161d8d1]" name="onlyMyCheckboxIsChecked" class="testBase.AccountPageTest"/>
-        <method signature="AccountPageTest.phoneFilterOptionIsClickable()[pri:0, instance:testBase.AccountPageTest@7161d8d1]" name="phoneFilterOptionIsClickable" class="testBase.AccountPageTest"/>
-        <method signature="AccountPageTest.resetButtonIsClickable()[pri:0, instance:testBase.AccountPageTest@7161d8d1]" name="resetButtonIsClickable" class="testBase.AccountPageTest"/>
-        <method signature="AccountPageTest.searchButtonIsClickable()[pri:0, instance:testBase.AccountPageTest@7161d8d1]" name="searchButtonIsClickable" class="testBase.AccountPageTest"/>
-        <method signature="AccountPageTest.searchTextIsEnteredSuccessfully()[pri:0, instance:testBase.AccountPageTest@7161d8d1]" name="searchTextIsEnteredSuccessfully" class="testBase.AccountPageTest"/>
-        <method signature="AccountPageTest.shippingAddressFilterIsClickable()[pri:0, instance:testBase.AccountPageTest@7161d8d1]" name="shippingAddressFilterIsClickable" class="testBase.AccountPageTest"/>
-        <method signature="AccountPageTest.teamsFilterOptionIsClickable()[pri:0, instance:testBase.AccountPageTest@7161d8d1]" name="teamsFilterOptionIsClickable" class="testBase.AccountPageTest"/>
-        <method signature="AccountPageTest.testBreadcrumbsVisibility()[pri:0, instance:testBase.AccountPageTest@7161d8d1]" name="testBreadcrumbsVisibility" class="testBase.AccountPageTest"/>
-        <method signature="AccountPageTest.testPaginationNextClick()[pri:0, instance:testBase.AccountPageTest@7161d8d1]" name="testPaginationNextClick" class="testBase.AccountPageTest"/>
-        <method signature="AccountPageTest.testToggleCityColumn()[pri:0, instance:testBase.AccountPageTest@7161d8d1]" name="testToggleCityColumn" class="testBase.AccountPageTest"/>
-        <method signature="AccountPageTest.testToggleColumnResize()[pri:0, instance:testBase.AccountPageTest@7161d8d1]" name="testToggleColumnResize" class="testBase.AccountPageTest"/>
-        <method signature="AccountPageTest.testToggleTypeColumn()[pri:0, instance:testBase.AccountPageTest@7161d8d1]" name="testToggleTypeColumn" class="testBase.AccountPageTest"/>
-        <method signature="AccountPageTest.websiteFilterIsClickable()[pri:0, instance:testBase.AccountPageTest@7161d8d1]" name="websiteFilterIsClickable" class="testBase.AccountPageTest"/>
-        <method signature="AccountPageTest.createAccountButtonIsClickable()[pri:0, instance:testBase.AccountPageTest@7161d8d1]" name="createAccountButtonIsClickable" class="testBase.AccountPageTest"/>
-        <method signature="AccountPageTest.filterOptionAllIsSelectable()[pri:0, instance:testBase.AccountPageTest@7161d8d1]" name="filterOptionAllIsSelectable" class="testBase.AccountPageTest"/>
-        <method signature="AccountPageTest.targetListsFilterOptionIsClickable()[pri:0, instance:testBase.AccountPageTest@7161d8d1]" name="targetListsFilterOptionIsClickable" class="testBase.AccountPageTest"/>
-        <method signature="AccountPageTest.testHeaderTitleVisibility()[pri:0, instance:testBase.AccountPageTest@7161d8d1]" name="testHeaderTitleVisibility" class="testBase.AccountPageTest"/>
-        <method signature="AccountPageTest.testToggleCountryColumn()[pri:0, instance:testBase.AccountPageTest@7161d8d1]" name="testToggleCountryColumn" class="testBase.AccountPageTest"/>
-        <method signature="AccountPageTest.testToggleIndustryColumn()[pri:0, instance:testBase.AccountPageTest@7161d8d1]" name="testToggleIndustryColumn" class="testBase.AccountPageTest"/>
-        <method signature="AccountPageTest.typeFilterOptionIsClickable()[pri:0, instance:testBase.AccountPageTest@7161d8d1]" name="typeFilterOptionIsClickable" class="testBase.AccountPageTest"/>
-      </group> <!-- AccountPage -->
-      <group name="Regression">
-        <method signature="AccountPageTest.accountsMenuIsClickable()[pri:-1, instance:testBase.AccountPageTest@7161d8d1]" name="accountsMenuIsClickable" class="testBase.AccountPageTest"/>
-        <method signature="AccountPageTest.addFilterDropdownIsClickable()[pri:0, instance:testBase.AccountPageTest@7161d8d1]" name="addFilterDropdownIsClickable" class="testBase.AccountPageTest"/>
-        <method signature="AccountPageTest.billingAddressFilterIsClickable()[pri:0, instance:testBase.AccountPageTest@7161d8d1]" name="billingAddressFilterIsClickable" class="testBase.AccountPageTest"/>
-        <method signature="AccountPageTest.countryFilterOptionIsClickable()[pri:0, instance:testBase.AccountPageTest@7161d8d1]" name="countryFilterOptionIsClickable" class="testBase.AccountPageTest"/>
-        <method signature="AccountPageTest.createdAtFilterOptionIsClickable()[pri:0, instance:testBase.AccountPageTest@7161d8d1]" name="createdAtFilterOptionIsClickable" class="testBase.AccountPageTest"/>
-        <method signature="AccountPageTest.createdByFilterOptionIsClickable()[pri:0, instance:testBase.AccountPageTest@7161d8d1]" name="createdByFilterOptionIsClickable" class="testBase.AccountPageTest"/>
-        <method signature="AccountPageTest.descriptionFilterOptionIsClickable()[pri:0, instance:testBase.AccountPageTest@7161d8d1]" name="descriptionFilterOptionIsClickable" class="testBase.AccountPageTest"/>
-        <method signature="AccountPageTest.emailFilterOptionIsClickable()[pri:0, instance:testBase.AccountPageTest@7161d8d1]" name="emailFilterOptionIsClickable" class="testBase.AccountPageTest"/>
-        <method signature="AccountPageTest.filterAssignedUserOptionIsClickable()[pri:0, instance:testBase.AccountPageTest@7161d8d1]" name="filterAssignedUserOptionIsClickable" class="testBase.AccountPageTest"/>
-        <method signature="AccountPageTest.filterDropdownIsClickable()[pri:0, instance:testBase.AccountPageTest@7161d8d1]" name="filterDropdownIsClickable" class="testBase.AccountPageTest"/>
-        <method signature="AccountPageTest.filterOptionRecentlyCreatedIsSelectable()[pri:0, instance:testBase.AccountPageTest@7161d8d1]" name="filterOptionRecentlyCreatedIsSelectable" class="testBase.AccountPageTest"/>
-        <method signature="AccountPageTest.filterOptionStarredIsSelectable()[pri:0, instance:testBase.AccountPageTest@7161d8d1]" name="filterOptionStarredIsSelectable" class="testBase.AccountPageTest"/>
-        <method signature="AccountPageTest.followedCheckboxIsChecked()[pri:0, instance:testBase.AccountPageTest@7161d8d1]" name="followedCheckboxIsChecked" class="testBase.AccountPageTest"/>
-        <method signature="AccountPageTest.industryFilterOptionIsClickable()[pri:0, instance:testBase.AccountPageTest@7161d8d1]" name="industryFilterOptionIsClickable" class="testBase.AccountPageTest"/>
-        <method signature="AccountPageTest.modifiedAtFilterOptionIsClickable()[pri:0, instance:testBase.AccountPageTest@7161d8d1]" name="modifiedAtFilterOptionIsClickable" class="testBase.AccountPageTest"/>
-        <method signature="AccountPageTest.onlyMyCheckboxIsChecked()[pri:0, instance:testBase.AccountPageTest@7161d8d1]" name="onlyMyCheckboxIsChecked" class="testBase.AccountPageTest"/>
-        <method signature="AccountPageTest.phoneFilterOptionIsClickable()[pri:0, instance:testBase.AccountPageTest@7161d8d1]" name="phoneFilterOptionIsClickable" class="testBase.AccountPageTest"/>
-        <method signature="AccountPageTest.resetButtonIsClickable()[pri:0, instance:testBase.AccountPageTest@7161d8d1]" name="resetButtonIsClickable" class="testBase.AccountPageTest"/>
-        <method signature="AccountPageTest.searchButtonIsClickable()[pri:0, instance:testBase.AccountPageTest@7161d8d1]" name="searchButtonIsClickable" class="testBase.AccountPageTest"/>
-        <method signature="AccountPageTest.searchTextIsEnteredSuccessfully()[pri:0, instance:testBase.AccountPageTest@7161d8d1]" name="searchTextIsEnteredSuccessfully" class="testBase.AccountPageTest"/>
-        <method signature="AccountPageTest.shippingAddressFilterIsClickable()[pri:0, instance:testBase.AccountPageTest@7161d8d1]" name="shippingAddressFilterIsClickable" class="testBase.AccountPageTest"/>
-        <method signature="AccountPageTest.teamsFilterOptionIsClickable()[pri:0, instance:testBase.AccountPageTest@7161d8d1]" name="teamsFilterOptionIsClickable" class="testBase.AccountPageTest"/>
-        <method signature="AccountPageTest.testBreadcrumbsVisibility()[pri:0, instance:testBase.AccountPageTest@7161d8d1]" name="testBreadcrumbsVisibility" class="testBase.AccountPageTest"/>
-        <method signature="AccountPageTest.testClickAssignedUserClear()[pri:0, instance:testBase.AccountPageTest@7161d8d1]" name="testClickAssignedUserClear" class="testBase.AccountPageTest"/>
-        <method signature="AccountPageTest.testClickAssignedUserSelect()[pri:0, instance:testBase.AccountPageTest@7161d8d1]" name="testClickAssignedUserSelect" class="testBase.AccountPageTest"/>
-        <method signature="AccountPageTest.testClickCopyBillingButton()[pri:0, instance:testBase.AccountPageTest@7161d8d1]" name="testClickCopyBillingButton" class="testBase.AccountPageTest"/>
-        <method signature="AccountPageTest.testClickSaveAndContinueButton()[pri:0, instance:testBase.AccountPageTest@7161d8d1]" name="testClickSaveAndContinueButton" class="testBase.AccountPageTest"/>
-        <method signature="AccountPageTest.testClickSaveAndNewButton()[pri:0, instance:testBase.AccountPageTest@7161d8d1]" name="testClickSaveAndNewButton" class="testBase.AccountPageTest"/>
-        <method signature="AccountPageTest.testClickTeamSelectButton()[pri:0, instance:testBase.AccountPageTest@7161d8d1]" name="testClickTeamSelectButton" class="testBase.AccountPageTest"/>
-        <method signature="AccountPageTest.testEnterAssignedUser()[pri:0, instance:testBase.AccountPageTest@7161d8d1]" name="testEnterAssignedUser" class="testBase.AccountPageTest"/>
-        <method signature="AccountPageTest.testEnterBillingCity()[pri:0, instance:testBase.AccountPageTest@7161d8d1]" name="testEnterBillingCity" class="testBase.AccountPageTest"/>
-        <method signature="AccountPageTest.testEnterBillingCountry()[pri:0, instance:testBase.AccountPageTest@7161d8d1]" name="testEnterBillingCountry" class="testBase.AccountPageTest"/>
-        <method signature="AccountPageTest.testEnterBillingPostalCode()[pri:0, instance:testBase.AccountPageTest@7161d8d1]" name="testEnterBillingPostalCode" class="testBase.AccountPageTest"/>
-        <method signature="AccountPageTest.testEnterBillingStreet()[pri:0, instance:testBase.AccountPageTest@7161d8d1]" name="testEnterBillingStreet" class="testBase.AccountPageTest"/>
-        <method signature="AccountPageTest.testEnterDescription()[pri:0, instance:testBase.AccountPageTest@7161d8d1]" name="testEnterDescription" class="testBase.AccountPageTest"/>
-        <method signature="AccountPageTest.testEnterEmail()[pri:0, instance:testBase.AccountPageTest@7161d8d1]" name="testEnterEmail" class="testBase.AccountPageTest"/>
-        <method signature="AccountPageTest.testEnterName()[pri:0, instance:testBase.AccountPageTest@7161d8d1]" name="testEnterName" class="testBase.AccountPageTest"/>
-        <method signature="AccountPageTest.testEnterPhone()[pri:0, instance:testBase.AccountPageTest@7161d8d1]" name="testEnterPhone" class="testBase.AccountPageTest"/>
-        <method signature="AccountPageTest.testEnterShippingCity()[pri:0, instance:testBase.AccountPageTest@7161d8d1]" name="testEnterShippingCity" class="testBase.AccountPageTest"/>
-        <method signature="AccountPageTest.testEnterShippingState()[pri:0, instance:testBase.AccountPageTest@7161d8d1]" name="testEnterShippingState" class="testBase.AccountPageTest"/>
-        <method signature="AccountPageTest.testEnterShippingStreet()[pri:0, instance:testBase.AccountPageTest@7161d8d1]" name="testEnterShippingStreet" class="testBase.AccountPageTest"/>
-        <method signature="AccountPageTest.testEnterTeam()[pri:0, instance:testBase.AccountPageTest@7161d8d1]" name="testEnterTeam" class="testBase.AccountPageTest"/>
-        <method signature="AccountPageTest.testEnterWebsite()[pri:0, instance:testBase.AccountPageTest@7161d8d1]" name="testEnterWebsite" class="testBase.AccountPageTest"/>
-        <method signature="AccountPageTest.testPaginationNextClick()[pri:0, instance:testBase.AccountPageTest@7161d8d1]" name="testPaginationNextClick" class="testBase.AccountPageTest"/>
-        <method signature="AccountPageTest.testPhoneTypeDropdownVisibility()[pri:0, instance:testBase.AccountPageTest@7161d8d1]" name="testPhoneTypeDropdownVisibility" class="testBase.AccountPageTest"/>
-        <method signature="AccountPageTest.testToggleCityColumn()[pri:0, instance:testBase.AccountPageTest@7161d8d1]" name="testToggleCityColumn" class="testBase.AccountPageTest"/>
-        <method signature="AccountPageTest.testToggleColumnResize()[pri:0, instance:testBase.AccountPageTest@7161d8d1]" name="testToggleColumnResize" class="testBase.AccountPageTest"/>
-        <method signature="AccountPageTest.testToggleTypeColumn()[pri:0, instance:testBase.AccountPageTest@7161d8d1]" name="testToggleTypeColumn" class="testBase.AccountPageTest"/>
-        <method signature="AccountPageTest.websiteFilterIsClickable()[pri:0, instance:testBase.AccountPageTest@7161d8d1]" name="websiteFilterIsClickable" class="testBase.AccountPageTest"/>
-        <method signature="AccountPageTest.createAccountButtonIsClickable()[pri:0, instance:testBase.AccountPageTest@7161d8d1]" name="createAccountButtonIsClickable" class="testBase.AccountPageTest"/>
-        <method signature="AccountPageTest.testClickSaveButton()[pri:0, instance:testBase.AccountPageTest@7161d8d1]" name="testClickSaveButton" class="testBase.AccountPageTest"/>
-        <method signature="AccountPageTest.testClickCancelButton()[pri:0, instance:testBase.AccountPageTest@7161d8d1]" name="testClickCancelButton" class="testBase.AccountPageTest"/>
-        <method signature="AccountPageTest.filterOptionAllIsSelectable()[pri:0, instance:testBase.AccountPageTest@7161d8d1]" name="filterOptionAllIsSelectable" class="testBase.AccountPageTest"/>
-        <method signature="AccountPageTest.targetListsFilterOptionIsClickable()[pri:0, instance:testBase.AccountPageTest@7161d8d1]" name="targetListsFilterOptionIsClickable" class="testBase.AccountPageTest"/>
-        <method signature="AccountPageTest.testEnterBillingState()[pri:0, instance:testBase.AccountPageTest@7161d8d1]" name="testEnterBillingState" class="testBase.AccountPageTest"/>
-        <method signature="AccountPageTest.testEnterShippingCountry()[pri:0, instance:testBase.AccountPageTest@7161d8d1]" name="testEnterShippingCountry" class="testBase.AccountPageTest"/>
-        <method signature="AccountPageTest.testEnterShippingPostalCode()[pri:0, instance:testBase.AccountPageTest@7161d8d1]" name="testEnterShippingPostalCode" class="testBase.AccountPageTest"/>
-        <method signature="AccountPageTest.testHeaderTitleVisibility()[pri:0, instance:testBase.AccountPageTest@7161d8d1]" name="testHeaderTitleVisibility" class="testBase.AccountPageTest"/>
-        <method signature="AccountPageTest.testToggleCountryColumn()[pri:0, instance:testBase.AccountPageTest@7161d8d1]" name="testToggleCountryColumn" class="testBase.AccountPageTest"/>
-        <method signature="AccountPageTest.testToggleIndustryColumn()[pri:0, instance:testBase.AccountPageTest@7161d8d1]" name="testToggleIndustryColumn" class="testBase.AccountPageTest"/>
-        <method signature="AccountPageTest.typeFilterOptionIsClickable()[pri:0, instance:testBase.AccountPageTest@7161d8d1]" name="typeFilterOptionIsClickable" class="testBase.AccountPageTest"/>
-      </group> <!-- Regression -->
-      <group name="Smoke">
-        <method signature="AccountPageTest.accountsMenuIsClickable()[pri:-1, instance:testBase.AccountPageTest@7161d8d1]" name="accountsMenuIsClickable" class="testBase.AccountPageTest"/>
-        <method signature="AccountPageTest.createAccountButtonIsClickable()[pri:0, instance:testBase.AccountPageTest@7161d8d1]" name="createAccountButtonIsClickable" class="testBase.AccountPageTest"/>
-      </group> <!-- Smoke -->
-      <group name="AccountCreate">
-        <method signature="AccountPageTest.testClickAssignedUserClear()[pri:0, instance:testBase.AccountPageTest@7161d8d1]" name="testClickAssignedUserClear" class="testBase.AccountPageTest"/>
-        <method signature="AccountPageTest.testClickAssignedUserSelect()[pri:0, instance:testBase.AccountPageTest@7161d8d1]" name="testClickAssignedUserSelect" class="testBase.AccountPageTest"/>
-        <method signature="AccountPageTest.testClickCopyBillingButton()[pri:0, instance:testBase.AccountPageTest@7161d8d1]" name="testClickCopyBillingButton" class="testBase.AccountPageTest"/>
-        <method signature="AccountPageTest.testClickSaveAndContinueButton()[pri:0, instance:testBase.AccountPageTest@7161d8d1]" name="testClickSaveAndContinueButton" class="testBase.AccountPageTest"/>
-        <method signature="AccountPageTest.testClickSaveAndNewButton()[pri:0, instance:testBase.AccountPageTest@7161d8d1]" name="testClickSaveAndNewButton" class="testBase.AccountPageTest"/>
-        <method signature="AccountPageTest.testClickTeamSelectButton()[pri:0, instance:testBase.AccountPageTest@7161d8d1]" name="testClickTeamSelectButton" class="testBase.AccountPageTest"/>
-        <method signature="AccountPageTest.testEnterAssignedUser()[pri:0, instance:testBase.AccountPageTest@7161d8d1]" name="testEnterAssignedUser" class="testBase.AccountPageTest"/>
-        <method signature="AccountPageTest.testEnterBillingCity()[pri:0, instance:testBase.AccountPageTest@7161d8d1]" name="testEnterBillingCity" class="testBase.AccountPageTest"/>
-        <method signature="AccountPageTest.testEnterBillingCountry()[pri:0, instance:testBase.AccountPageTest@7161d8d1]" name="testEnterBillingCountry" class="testBase.AccountPageTest"/>
-        <method signature="AccountPageTest.testEnterBillingPostalCode()[pri:0, instance:testBase.AccountPageTest@7161d8d1]" name="testEnterBillingPostalCode" class="testBase.AccountPageTest"/>
-        <method signature="AccountPageTest.testEnterBillingStreet()[pri:0, instance:testBase.AccountPageTest@7161d8d1]" name="testEnterBillingStreet" class="testBase.AccountPageTest"/>
-        <method signature="AccountPageTest.testEnterDescription()[pri:0, instance:testBase.AccountPageTest@7161d8d1]" name="testEnterDescription" class="testBase.AccountPageTest"/>
-        <method signature="AccountPageTest.testEnterEmail()[pri:0, instance:testBase.AccountPageTest@7161d8d1]" name="testEnterEmail" class="testBase.AccountPageTest"/>
-        <method signature="AccountPageTest.testEnterName()[pri:0, instance:testBase.AccountPageTest@7161d8d1]" name="testEnterName" class="testBase.AccountPageTest"/>
-        <method signature="AccountPageTest.testEnterPhone()[pri:0, instance:testBase.AccountPageTest@7161d8d1]" name="testEnterPhone" class="testBase.AccountPageTest"/>
-        <method signature="AccountPageTest.testEnterShippingCity()[pri:0, instance:testBase.AccountPageTest@7161d8d1]" name="testEnterShippingCity" class="testBase.AccountPageTest"/>
-        <method signature="AccountPageTest.testEnterShippingState()[pri:0, instance:testBase.AccountPageTest@7161d8d1]" name="testEnterShippingState" class="testBase.AccountPageTest"/>
-        <method signature="AccountPageTest.testEnterShippingStreet()[pri:0, instance:testBase.AccountPageTest@7161d8d1]" name="testEnterShippingStreet" class="testBase.AccountPageTest"/>
-        <method signature="AccountPageTest.testEnterTeam()[pri:0, instance:testBase.AccountPageTest@7161d8d1]" name="testEnterTeam" class="testBase.AccountPageTest"/>
-        <method signature="AccountPageTest.testEnterWebsite()[pri:0, instance:testBase.AccountPageTest@7161d8d1]" name="testEnterWebsite" class="testBase.AccountPageTest"/>
-        <method signature="AccountPageTest.testPhoneTypeDropdownVisibility()[pri:0, instance:testBase.AccountPageTest@7161d8d1]" name="testPhoneTypeDropdownVisibility" class="testBase.AccountPageTest"/>
-        <method signature="AccountPageTest.testClickSaveButton()[pri:0, instance:testBase.AccountPageTest@7161d8d1]" name="testClickSaveButton" class="testBase.AccountPageTest"/>
-        <method signature="AccountPageTest.testClickCancelButton()[pri:0, instance:testBase.AccountPageTest@7161d8d1]" name="testClickCancelButton" class="testBase.AccountPageTest"/>
-        <method signature="AccountPageTest.testEnterBillingState()[pri:0, instance:testBase.AccountPageTest@7161d8d1]" name="testEnterBillingState" class="testBase.AccountPageTest"/>
-        <method signature="AccountPageTest.testEnterShippingCountry()[pri:0, instance:testBase.AccountPageTest@7161d8d1]" name="testEnterShippingCountry" class="testBase.AccountPageTest"/>
-        <method signature="AccountPageTest.testEnterShippingPostalCode()[pri:0, instance:testBase.AccountPageTest@7161d8d1]" name="testEnterShippingPostalCode" class="testBase.AccountPageTest"/>
-      </group> <!-- AccountCreate -->
+      <group name="FullAccountTest">
+        <method signature="AccountPageFlowTesting.fullAccountCreationAndVerificationFlow(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testBase.AccountPageFlowTesting@71ba6d4e]" name="fullAccountCreationAndVerificationFlow" class="testBase.AccountPageFlowTesting"/>
+      </group> <!-- FullAccountTest -->
     </groups>
-    <test started-at="2025-04-20T12:33:20 IST" name="Test" finished-at="2025-04-20T12:42:00 IST" duration-ms="520475">
-      <class name="testBase.AccountPageTest">
-        <test-method signature="accountsMenuIsClickable()[pri:-1, instance:testBase.AccountPageTest@7161d8d1]" started-at="2025-04-20T12:33:36 IST" name="accountsMenuIsClickable" finished-at="2025-04-20T12:33:36 IST" duration-ms="129" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- accountsMenuIsClickable -->
-        <test-method signature="addFilterDropdownIsClickable()[pri:0, instance:testBase.AccountPageTest@7161d8d1]" started-at="2025-04-20T12:33:36 IST" name="addFilterDropdownIsClickable" finished-at="2025-04-20T12:33:36 IST" duration-ms="673" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- addFilterDropdownIsClickable -->
-        <test-method signature="billingAddressFilterIsClickable()[pri:0, instance:testBase.AccountPageTest@7161d8d1]" started-at="2025-04-20T12:33:36 IST" name="billingAddressFilterIsClickable" finished-at="2025-04-20T12:33:52 IST" duration-ms="15273" status="FAIL">
-          <exception class="org.openqa.selenium.ElementNotInteractableException">
+    <test started-at="2025-04-21T12:37:34 IST" name="Test" finished-at="2025-04-21T12:42:13 IST" duration-ms="278589">
+      <class name="testBase.AccountPageFlowTesting">
+        <test-method signature="fullAccountCreationAndVerificationFlow(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testBase.AccountPageFlowTesting@71ba6d4e]" started-at="2025-04-21T12:38:03 IST" name="fullAccountCreationAndVerificationFlow" data-provider="accountDataProvider" finished-at="2025-04-21T12:42:13 IST" duration-ms="249526" status="FAIL">
+          <exception class="org.testng.internal.reflect.MethodMatcherException">
             <message>
-              <![CDATA[element not interactable
-  (Session info: chrome=135.0.7049.96)
-Build info: version: '4.31.0', revision: '1ef9f18787*'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [663f7864c9d4b3e28045661db11b63e9, clickElement {id=f.8E1B2E751BAF909BCC958C46EACB1B72.d.D5355744F7282978FFB3301D721EEAB7.e.115}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.96, chrome: {chromedriverVersion: 135.0.7049.95 (de2eb485a195..., userDataDir: C:\Users\xmedia\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64517}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64517/devtoo..., se:cdpVersion: 135.0.7049.96, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (663f7864c9d4b3e28045661db11b63e9)] -> css selector: li[data-name='billingAddress'] a.add-filter]
-Session ID: 663f7864c9d4b3e28045661db11b63e9]]>
+              <![CDATA[
+[public void testBase.AccountPageFlowTesting.fullAccountCreationAndVerificationFlow(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)] has no parameters defined but was found to be using a data provider (either explicitly specified or inherited from class level annotation).
+Data provider mismatch
+Method: fullAccountCreationAndVerificationFlow([java.lang.String arg0, java.lang.String arg1, java.lang.String arg2, java.lang.String arg3, java.lang.String arg4, java.lang.String arg5, java.lang.String arg6, java.lang.String arg7, java.lang.String arg8, java.lang.String arg9, java.lang.String arg10, java.lang.String arg11, java.lang.String arg12, java.lang.String arg13, java.lang.String arg14, java.lang.String arg15, java.lang.String arg16, java.lang.String arg17, java.lang.String arg18])
+Arguments: [(java.lang.String) ,(java.lang.String) ,(java.lang.String) ,(java.lang.String) ,(java.lang.String) ,(java.lang.String) ,(java.lang.String) ,(java.lang.String) ,(java.lang.String) ,(java.lang.String) ,(java.lang.String) ,(java.lang.String) ,(java.lang.String) ,(java.lang.String) ,(java.lang.String) ,(java.lang.String) ,(java.lang.String) ,(java.lang.String) ]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
-  (Session info: chrome=135.0.7049.96)
-Build info: version: '4.31.0', revision: '1ef9f18787*'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [663f7864c9d4b3e28045661db11b63e9, clickElement {id=f.8E1B2E751BAF909BCC958C46EACB1B72.d.D5355744F7282978FFB3301D721EEAB7.e.115}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.96, chrome: {chromedriverVersion: 135.0.7049.95 (de2eb485a195..., userDataDir: C:\Users\xmedia\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64517}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64517/devtoo..., se:cdpVersion: 135.0.7049.96, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (663f7864c9d4b3e28045661db11b63e9)] -> css selector: li[data-name='billingAddress'] a.add-filter]
-Session ID: 663f7864c9d4b3e28045661db11b63e9
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
-at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
-at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
-at pageObjectClass.AccountPageLocators.selectFilterBillingAddress(AccountPageLocators.java:304)
-at testBase.AccountPageTest.billingAddressFilterIsClickable(AccountPageTest.java:166)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+              <![CDATA[org.testng.internal.reflect.MethodMatcherException: 
+[public void testBase.AccountPageFlowTesting.fullAccountCreationAndVerificationFlow(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)] has no parameters defined but was found to be using a data provider (either explicitly specified or inherited from class level annotation).
+Data provider mismatch
+Method: fullAccountCreationAndVerificationFlow([java.lang.String arg0, java.lang.String arg1, java.lang.String arg2, java.lang.String arg3, java.lang.String arg4, java.lang.String arg5, java.lang.String arg6, java.lang.String arg7, java.lang.String arg8, java.lang.String arg9, java.lang.String arg10, java.lang.String arg11, java.lang.String arg12, java.lang.String arg13, java.lang.String arg14, java.lang.String arg15, java.lang.String arg16, java.lang.String arg17, java.lang.String arg18])
+Arguments: [(java.lang.String) ,(java.lang.String) ,(java.lang.String) ,(java.lang.String) ,(java.lang.String) ,(java.lang.String) ,(java.lang.String) ,(java.lang.String) ,(java.lang.String) ,(java.lang.String) ,(java.lang.String) ,(java.lang.String) ,(java.lang.String) ,(java.lang.String) ,(java.lang.String) ,(java.lang.String) ,(java.lang.String) ,(java.lang.String) ]
+at org.testng.internal.reflect.DataProviderMethodMatcher.getConformingArguments(DataProviderMethodMatcher.java:46)
+at org.testng.internal.Parameters.injectParameters(Parameters.java:915)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
 at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
 at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
 at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
@@ -274,540 +50,132 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
+          </exception> <!-- org.testng.internal.reflect.MethodMatcherException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- billingAddressFilterIsClickable -->
-        <test-method signature="countryFilterOptionIsClickable()[pri:0, instance:testBase.AccountPageTest@7161d8d1]" started-at="2025-04-20T12:33:52 IST" name="countryFilterOptionIsClickable" finished-at="2025-04-20T12:33:52 IST" duration-ms="369" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- countryFilterOptionIsClickable -->
-        <test-method signature="createdAtFilterOptionIsClickable()[pri:0, instance:testBase.AccountPageTest@7161d8d1]" started-at="2025-04-20T12:33:52 IST" name="createdAtFilterOptionIsClickable" finished-at="2025-04-20T12:33:53 IST" duration-ms="383" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createdAtFilterOptionIsClickable -->
-        <test-method signature="createdByFilterOptionIsClickable()[pri:0, instance:testBase.AccountPageTest@7161d8d1]" started-at="2025-04-20T12:33:53 IST" name="createdByFilterOptionIsClickable" finished-at="2025-04-20T12:33:53 IST" duration-ms="460" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createdByFilterOptionIsClickable -->
-        <test-method signature="descriptionFilterOptionIsClickable()[pri:0, instance:testBase.AccountPageTest@7161d8d1]" started-at="2025-04-20T12:33:53 IST" name="descriptionFilterOptionIsClickable" finished-at="2025-04-20T12:33:54 IST" duration-ms="575" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- descriptionFilterOptionIsClickable -->
-        <test-method signature="emailFilterOptionIsClickable()[pri:0, instance:testBase.AccountPageTest@7161d8d1]" started-at="2025-04-20T12:33:54 IST" name="emailFilterOptionIsClickable" finished-at="2025-04-20T12:33:54 IST" duration-ms="431" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- emailFilterOptionIsClickable -->
-        <test-method signature="filterAssignedUserOptionIsClickable()[pri:0, instance:testBase.AccountPageTest@7161d8d1]" started-at="2025-04-20T12:33:54 IST" name="filterAssignedUserOptionIsClickable" finished-at="2025-04-20T12:33:55 IST" duration-ms="395" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- filterAssignedUserOptionIsClickable -->
-        <test-method signature="filterDropdownIsClickable()[pri:0, instance:testBase.AccountPageTest@7161d8d1]" started-at="2025-04-20T12:33:55 IST" name="filterDropdownIsClickable" finished-at="2025-04-20T12:33:55 IST" duration-ms="156" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- filterDropdownIsClickable -->
-        <test-method signature="filterOptionAllIsSelectable()[pri:0, instance:testBase.AccountPageTest@7161d8d1]" started-at="2025-04-20T12:33:55 IST" name="filterOptionAllIsSelectable" finished-at="2025-04-20T12:34:10 IST" duration-ms="15224" status="FAIL">
-          <exception class="org.openqa.selenium.ElementNotInteractableException">
-            <message>
-              <![CDATA[element not interactable
-  (Session info: chrome=135.0.7049.96)
-Build info: version: '4.31.0', revision: '1ef9f18787*'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [663f7864c9d4b3e28045661db11b63e9, clickElement {id=f.8E1B2E751BAF909BCC958C46EACB1B72.d.D5355744F7282978FFB3301D721EEAB7.e.175}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.96, chrome: {chromedriverVersion: 135.0.7049.95 (de2eb485a195..., userDataDir: C:\Users\xmedia\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64517}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64517/devtoo..., se:cdpVersion: 135.0.7049.96, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (663f7864c9d4b3e28045661db11b63e9)] -> css selector: a.preset[data-name='']]
-Session ID: 663f7864c9d4b3e28045661db11b63e9]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
-  (Session info: chrome=135.0.7049.96)
-Build info: version: '4.31.0', revision: '1ef9f18787*'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [663f7864c9d4b3e28045661db11b63e9, clickElement {id=f.8E1B2E751BAF909BCC958C46EACB1B72.d.D5355744F7282978FFB3301D721EEAB7.e.175}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.96, chrome: {chromedriverVersion: 135.0.7049.95 (de2eb485a195..., userDataDir: C:\Users\xmedia\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64517}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64517/devtoo..., se:cdpVersion: 135.0.7049.96, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (663f7864c9d4b3e28045661db11b63e9)] -> css selector: a.preset[data-name='']]
-Session ID: 663f7864c9d4b3e28045661db11b63e9
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
-at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
-at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
-at pageObjectClass.AccountPageLocators.selectFilterOptionAll(AccountPageLocators.java:190)
-at testBase.AccountPageTest.filterOptionAllIsSelectable(AccountPageTest.java:55)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- filterOptionAllIsSelectable -->
-        <test-method signature="filterOptionRecentlyCreatedIsSelectable()[pri:0, instance:testBase.AccountPageTest@7161d8d1]" started-at="2025-04-20T12:34:10 IST" name="filterOptionRecentlyCreatedIsSelectable" finished-at="2025-04-20T12:34:11 IST" duration-ms="844" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- filterOptionRecentlyCreatedIsSelectable -->
-        <test-method signature="filterOptionStarredIsSelectable()[pri:0, instance:testBase.AccountPageTest@7161d8d1]" started-at="2025-04-20T12:34:11 IST" name="filterOptionStarredIsSelectable" finished-at="2025-04-20T12:34:12 IST" duration-ms="770" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- filterOptionStarredIsSelectable -->
-        <test-method signature="followedCheckboxIsChecked()[pri:0, instance:testBase.AccountPageTest@7161d8d1]" started-at="2025-04-20T12:34:12 IST" name="followedCheckboxIsChecked" finished-at="2025-04-20T12:34:12 IST" duration-ms="357" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- followedCheckboxIsChecked -->
-        <test-method signature="industryFilterOptionIsClickable()[pri:0, instance:testBase.AccountPageTest@7161d8d1]" started-at="2025-04-20T12:34:12 IST" name="industryFilterOptionIsClickable" finished-at="2025-04-20T12:34:13 IST" duration-ms="393" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- industryFilterOptionIsClickable -->
-        <test-method signature="modifiedAtFilterOptionIsClickable()[pri:0, instance:testBase.AccountPageTest@7161d8d1]" started-at="2025-04-20T12:34:13 IST" name="modifiedAtFilterOptionIsClickable" finished-at="2025-04-20T12:34:13 IST" duration-ms="503" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- modifiedAtFilterOptionIsClickable -->
-        <test-method signature="onlyMyCheckboxIsChecked()[pri:0, instance:testBase.AccountPageTest@7161d8d1]" started-at="2025-04-20T12:34:13 IST" name="onlyMyCheckboxIsChecked" finished-at="2025-04-20T12:34:13 IST" duration-ms="337" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- onlyMyCheckboxIsChecked -->
-        <test-method signature="phoneFilterOptionIsClickable()[pri:0, instance:testBase.AccountPageTest@7161d8d1]" started-at="2025-04-20T12:34:13 IST" name="phoneFilterOptionIsClickable" finished-at="2025-04-20T12:34:14 IST" duration-ms="441" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- phoneFilterOptionIsClickable -->
-        <test-method signature="resetButtonIsClickable()[pri:0, instance:testBase.AccountPageTest@7161d8d1]" started-at="2025-04-20T12:34:14 IST" name="resetButtonIsClickable" finished-at="2025-04-20T12:34:14 IST" duration-ms="199" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- resetButtonIsClickable -->
-        <test-method signature="searchButtonIsClickable()[pri:0, instance:testBase.AccountPageTest@7161d8d1]" started-at="2025-04-20T12:34:14 IST" name="searchButtonIsClickable" finished-at="2025-04-20T12:34:14 IST" duration-ms="187" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- searchButtonIsClickable -->
-        <test-method signature="searchTextIsEnteredSuccessfully()[pri:0, instance:testBase.AccountPageTest@7161d8d1]" started-at="2025-04-20T12:34:14 IST" name="searchTextIsEnteredSuccessfully" finished-at="2025-04-20T12:34:15 IST" duration-ms="214" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- searchTextIsEnteredSuccessfully -->
-        <test-method signature="shippingAddressFilterIsClickable()[pri:0, instance:testBase.AccountPageTest@7161d8d1]" started-at="2025-04-20T12:34:15 IST" name="shippingAddressFilterIsClickable" finished-at="2025-04-20T12:34:15 IST" duration-ms="419" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- shippingAddressFilterIsClickable -->
-        <test-method signature="targetListsFilterOptionIsClickable()[pri:0, instance:testBase.AccountPageTest@7161d8d1]" started-at="2025-04-20T12:34:15 IST" name="targetListsFilterOptionIsClickable" finished-at="2025-04-20T12:34:15 IST" duration-ms="339" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- targetListsFilterOptionIsClickable -->
-        <test-method signature="teamsFilterOptionIsClickable()[pri:0, instance:testBase.AccountPageTest@7161d8d1]" started-at="2025-04-20T12:34:15 IST" name="teamsFilterOptionIsClickable" finished-at="2025-04-20T12:34:16 IST" duration-ms="394" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teamsFilterOptionIsClickable -->
-        <test-method signature="testBreadcrumbsVisibility()[pri:0, instance:testBase.AccountPageTest@7161d8d1]" started-at="2025-04-20T12:34:16 IST" name="testBreadcrumbsVisibility" finished-at="2025-04-20T12:34:16 IST" duration-ms="58" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testBreadcrumbsVisibility -->
-        <test-method signature="testClickAssignedUserClear()[pri:0, instance:testBase.AccountPageTest@7161d8d1]" started-at="2025-04-20T12:34:16 IST" name="testClickAssignedUserClear" finished-at="2025-04-20T12:34:32 IST" duration-ms="16521" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testClickAssignedUserClear -->
-        <test-method signature="testClickAssignedUserSelect()[pri:0, instance:testBase.AccountPageTest@7161d8d1]" started-at="2025-04-20T12:34:32 IST" name="testClickAssignedUserSelect" finished-at="2025-04-20T12:34:49 IST" duration-ms="16297" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testClickAssignedUserSelect -->
-        <test-method signature="testClickCopyBillingButton()[pri:0, instance:testBase.AccountPageTest@7161d8d1]" started-at="2025-04-20T12:34:49 IST" name="testClickCopyBillingButton" finished-at="2025-04-20T12:35:05 IST" duration-ms="15973" status="FAIL">
-          <exception class="org.openqa.selenium.ElementNotInteractableException">
-            <message>
-              <![CDATA[element not interactable
-  (Session info: chrome=135.0.7049.96)
-Build info: version: '4.31.0', revision: '1ef9f18787*'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [663f7864c9d4b3e28045661db11b63e9, clickElement {id=f.8E1B2E751BAF909BCC958C46EACB1B72.d.D5355744F7282978FFB3301D721EEAB7.e.600}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.96, chrome: {chromedriverVersion: 135.0.7049.95 (de2eb485a195..., userDataDir: C:\Users\xmedia\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64517}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64517/devtoo..., se:cdpVersion: 135.0.7049.96, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (663f7864c9d4b3e28045661db11b63e9)] -> xpath: //button[contains(text(), 'Copy Billing')]]
-Session ID: 663f7864c9d4b3e28045661db11b63e9]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
-  (Session info: chrome=135.0.7049.96)
-Build info: version: '4.31.0', revision: '1ef9f18787*'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [663f7864c9d4b3e28045661db11b63e9, clickElement {id=f.8E1B2E751BAF909BCC958C46EACB1B72.d.D5355744F7282978FFB3301D721EEAB7.e.600}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.96, chrome: {chromedriverVersion: 135.0.7049.95 (de2eb485a195..., userDataDir: C:\Users\xmedia\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64517}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64517/devtoo..., se:cdpVersion: 135.0.7049.96, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (663f7864c9d4b3e28045661db11b63e9)] -> xpath: //button[contains(text(), 'Copy Billing')]]
-Session ID: 663f7864c9d4b3e28045661db11b63e9
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
-at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
-at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
-at pageObjectClass.AccountPageLocators.clickCopyBillingButton(AccountPageLocators.java:589)
-at testBase.AccountPageTest.testClickCopyBillingButton(AccountPageTest.java:471)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testClickCopyBillingButton -->
-        <test-method signature="testClickSaveAndContinueButton()[pri:0, instance:testBase.AccountPageTest@7161d8d1]" started-at="2025-04-20T12:35:05 IST" name="testClickSaveAndContinueButton" finished-at="2025-04-20T12:35:20 IST" duration-ms="15198" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"link text","selector":"Create Account"}
-  (Session info: chrome=135.0.7049.96)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.31.0', revision: '1ef9f18787*'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [663f7864c9d4b3e28045661db11b63e9, findElement {using=link text, value=Create Account}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.96, chrome: {chromedriverVersion: 135.0.7049.95 (de2eb485a195..., userDataDir: C:\Users\xmedia\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64517}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64517/devtoo..., se:cdpVersion: 135.0.7049.96, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 663f7864c9d4b3e28045661db11b63e9]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"link text","selector":"Create Account"}
-  (Session info: chrome=135.0.7049.96)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.31.0', revision: '1ef9f18787*'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [663f7864c9d4b3e28045661db11b63e9, findElement {using=link text, value=Create Account}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.96, chrome: {chromedriverVersion: 135.0.7049.95 (de2eb485a195..., userDataDir: C:\Users\xmedia\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64517}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64517/devtoo..., se:cdpVersion: 135.0.7049.96, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 663f7864c9d4b3e28045661db11b63e9
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
-at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
-at pageObjectClass.AccountPageLocators.clickCreateAccountButton(AccountPageLocators.java:322)
-at testBase.AccountPageTest.testClickSaveAndContinueButton(AccountPageTest.java:286)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testClickSaveAndContinueButton -->
-        <test-method signature="testClickSaveAndNewButton()[pri:0, instance:testBase.AccountPageTest@7161d8d1]" started-at="2025-04-20T12:35:20 IST" name="testClickSaveAndNewButton" finished-at="2025-04-20T12:35:36 IST" duration-ms="15254" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"link text","selector":"Create Account"}
-  (Session info: chrome=135.0.7049.96)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.31.0', revision: '1ef9f18787*'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [663f7864c9d4b3e28045661db11b63e9, findElement {using=link text, value=Create Account}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.96, chrome: {chromedriverVersion: 135.0.7049.95 (de2eb485a195..., userDataDir: C:\Users\xmedia\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64517}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64517/devtoo..., se:cdpVersion: 135.0.7049.96, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 663f7864c9d4b3e28045661db11b63e9]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"link text","selector":"Create Account"}
-  (Session info: chrome=135.0.7049.96)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.31.0', revision: '1ef9f18787*'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [663f7864c9d4b3e28045661db11b63e9, findElement {using=link text, value=Create Account}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.96, chrome: {chromedriverVersion: 135.0.7049.95 (de2eb485a195..., userDataDir: C:\Users\xmedia\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64517}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64517/devtoo..., se:cdpVersion: 135.0.7049.96, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 663f7864c9d4b3e28045661db11b63e9
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
-at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
-at pageObjectClass.AccountPageLocators.clickCreateAccountButton(AccountPageLocators.java:322)
-at testBase.AccountPageTest.testClickSaveAndNewButton(AccountPageTest.java:293)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testClickSaveAndNewButton -->
-        <test-method signature="testClickTeamSelectButton()[pri:0, instance:testBase.AccountPageTest@7161d8d1]" started-at="2025-04-20T12:35:36 IST" name="testClickTeamSelectButton" finished-at="2025-04-20T12:35:52 IST" duration-ms="16248" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testClickTeamSelectButton -->
-        <test-method signature="testEnterAssignedUser()[pri:0, instance:testBase.AccountPageTest@7161d8d1]" started-at="2025-04-20T12:35:52 IST" name="testEnterAssignedUser" finished-at="2025-04-20T12:36:08 IST" duration-ms="16325" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testEnterAssignedUser -->
-        <test-method signature="testEnterBillingCity()[pri:0, instance:testBase.AccountPageTest@7161d8d1]" started-at="2025-04-20T12:36:08 IST" name="testEnterBillingCity" finished-at="2025-04-20T12:36:25 IST" duration-ms="16347" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testEnterBillingCity -->
-        <test-method signature="testEnterBillingCountry()[pri:0, instance:testBase.AccountPageTest@7161d8d1]" started-at="2025-04-20T12:36:25 IST" name="testEnterBillingCountry" finished-at="2025-04-20T12:36:41 IST" duration-ms="16278" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testEnterBillingCountry -->
-        <test-method signature="testEnterBillingPostalCode()[pri:0, instance:testBase.AccountPageTest@7161d8d1]" started-at="2025-04-20T12:36:41 IST" name="testEnterBillingPostalCode" finished-at="2025-04-20T12:36:57 IST" duration-ms="16260" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testEnterBillingPostalCode -->
-        <test-method signature="testEnterBillingState()[pri:0, instance:testBase.AccountPageTest@7161d8d1]" started-at="2025-04-20T12:36:57 IST" name="testEnterBillingState" finished-at="2025-04-20T12:37:13 IST" duration-ms="16154" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testEnterBillingState -->
-        <test-method signature="testEnterBillingStreet()[pri:0, instance:testBase.AccountPageTest@7161d8d1]" started-at="2025-04-20T12:37:13 IST" name="testEnterBillingStreet" finished-at="2025-04-20T12:37:30 IST" duration-ms="16145" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testEnterBillingStreet -->
-        <test-method signature="testEnterDescription()[pri:0, instance:testBase.AccountPageTest@7161d8d1]" started-at="2025-04-20T12:37:30 IST" name="testEnterDescription" finished-at="2025-04-20T12:37:46 IST" duration-ms="16344" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testEnterDescription -->
-        <test-method signature="testEnterEmail()[pri:0, instance:testBase.AccountPageTest@7161d8d1]" started-at="2025-04-20T12:37:46 IST" name="testEnterEmail" finished-at="2025-04-20T12:38:02 IST" duration-ms="16366" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testEnterEmail -->
-        <test-method signature="testEnterName()[pri:0, instance:testBase.AccountPageTest@7161d8d1]" started-at="2025-04-20T12:38:02 IST" name="testEnterName" finished-at="2025-04-20T12:38:03 IST" duration-ms="1041" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testEnterName -->
-        <test-method signature="testEnterPhone()[pri:0, instance:testBase.AccountPageTest@7161d8d1]" started-at="2025-04-20T12:38:03 IST" name="testEnterPhone" finished-at="2025-04-20T12:38:34 IST" duration-ms="30183" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testEnterPhone -->
-        <test-method signature="testEnterShippingCity()[pri:0, instance:testBase.AccountPageTest@7161d8d1]" started-at="2025-04-20T12:38:34 IST" name="testEnterShippingCity" finished-at="2025-04-20T12:38:50 IST" duration-ms="16510" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testEnterShippingCity -->
-        <test-method signature="testEnterShippingCountry()[pri:0, instance:testBase.AccountPageTest@7161d8d1]" started-at="2025-04-20T12:38:50 IST" name="testEnterShippingCountry" finished-at="2025-04-20T12:39:06 IST" duration-ms="16193" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testEnterShippingCountry -->
-        <test-method signature="testEnterShippingPostalCode()[pri:0, instance:testBase.AccountPageTest@7161d8d1]" started-at="2025-04-20T12:39:06 IST" name="testEnterShippingPostalCode" finished-at="2025-04-20T12:39:22 IST" duration-ms="16205" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testEnterShippingPostalCode -->
-        <test-method signature="testEnterShippingState()[pri:0, instance:testBase.AccountPageTest@7161d8d1]" started-at="2025-04-20T12:39:23 IST" name="testEnterShippingState" finished-at="2025-04-20T12:39:39 IST" duration-ms="16056" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testEnterShippingState -->
-        <test-method signature="testEnterShippingStreet()[pri:0, instance:testBase.AccountPageTest@7161d8d1]" started-at="2025-04-20T12:39:39 IST" name="testEnterShippingStreet" finished-at="2025-04-20T12:39:55 IST" duration-ms="16246" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testEnterShippingStreet -->
-        <test-method signature="testEnterTeam()[pri:0, instance:testBase.AccountPageTest@7161d8d1]" started-at="2025-04-20T12:39:55 IST" name="testEnterTeam" finished-at="2025-04-20T12:40:11 IST" duration-ms="16294" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testEnterTeam -->
-        <test-method signature="testEnterWebsite()[pri:0, instance:testBase.AccountPageTest@7161d8d1]" started-at="2025-04-20T12:40:11 IST" name="testEnterWebsite" finished-at="2025-04-20T12:40:27 IST" duration-ms="16279" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testEnterWebsite -->
-        <test-method signature="testHeaderTitleVisibility()[pri:0, instance:testBase.AccountPageTest@7161d8d1]" started-at="2025-04-20T12:40:27 IST" name="testHeaderTitleVisibility" finished-at="2025-04-20T12:40:27 IST" duration-ms="59" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testHeaderTitleVisibility -->
-        <test-method signature="testPaginationNextClick()[pri:0, instance:testBase.AccountPageTest@7161d8d1]" started-at="2025-04-20T12:40:27 IST" name="testPaginationNextClick" finished-at="2025-04-20T12:40:43 IST" duration-ms="15049" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"a[data-page='next']"}
-  (Session info: chrome=135.0.7049.96)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.31.0', revision: '1ef9f18787*'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [663f7864c9d4b3e28045661db11b63e9, findElement {using=css selector, value=a[data-page='next']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.96, chrome: {chromedriverVersion: 135.0.7049.95 (de2eb485a195..., userDataDir: C:\Users\xmedia\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64517}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64517/devtoo..., se:cdpVersion: 135.0.7049.96, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 663f7864c9d4b3e28045661db11b63e9]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"a[data-page='next']"}
-  (Session info: chrome=135.0.7049.96)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.31.0', revision: '1ef9f18787*'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [663f7864c9d4b3e28045661db11b63e9, findElement {using=css selector, value=a[data-page='next']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.96, chrome: {chromedriverVersion: 135.0.7049.95 (de2eb485a195..., userDataDir: C:\Users\xmedia\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64517}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64517/devtoo..., se:cdpVersion: 135.0.7049.96, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 663f7864c9d4b3e28045661db11b63e9
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
-at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
-at pageObjectClass.AccountPageLocators.clickPaginationNext(AccountPageLocators.java:404)
-at testBase.AccountPageTest.testPaginationNextClick(AccountPageTest.java:228)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testPaginationNextClick -->
-        <test-method signature="testPhoneTypeDropdownVisibility()[pri:0, instance:testBase.AccountPageTest@7161d8d1]" started-at="2025-04-20T12:40:43 IST" name="testPhoneTypeDropdownVisibility" finished-at="2025-04-20T12:40:43 IST" duration-ms="658" status="FAIL">
+        </test-method> <!-- fullAccountCreationAndVerificationFlow -->
+        <test-method signature="fullAccountCreationAndVerificationFlow(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testBase.AccountPageFlowTesting@71ba6d4e]" started-at="2025-04-21T12:38:03 IST" name="fullAccountCreationAndVerificationFlow" data-provider="accountDataProvider" finished-at="2025-04-21T12:38:40 IST" duration-ms="37009" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Acme Inc.]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://acme.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[contact@acme.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1234567890]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[123 Main St]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Los Angeles]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[CA]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[90001]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[USA]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[456 Elm St]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[New York]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[NY]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[10001]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[USA]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[John Doe]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[Sales]]>
+              </value>
+            </param>
+            <param index="16">
+              <value>
+                <![CDATA[Enterprise software solutions]]>
+              </value>
+            </param>
+            <param index="17">
+              <value>
+                <![CDATA[Customer]]>
+              </value>
+            </param>
+            <param index="18">
+              <value>
+                <![CDATA[Banking]]>
+              </value>
+            </param>
+          </params>
           <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[Phone type dropdown is not visible expected [true] but found [false]]]>
+              <![CDATA[❗ Exception during full account flow: element click intercepted: Element <button data-action="selectLink" class="btn btn-default btn-icon" type="button" title="Select">...</button> is not clickable at point (1272, 18). Other element would receive the click: <i class="fas fa-plus icon"></i>
+  (Session info: chrome=135.0.7049.96)
+Build info: version: '4.31.0', revision: '1ef9f18787*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b3df321e0bd969c0a62b75fea3e78ee6, clickElement {id=f.B91BB503AE92C83DC4213A84EF29C044.d.BAB8D87D71A7A79B6FC4787A1C4AF67B.e.118}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.96, chrome: {chromedriverVersion: 135.0.7049.95 (de2eb485a195..., userDataDir: C:\Users\xmedia\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53332}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53332/devtoo..., se:cdpVersion: 135.0.7049.96, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (b3df321e0bd969c0a62b75fea3e78ee6)] -> css selector: button[data-action='selectLink']:not([disabled])]
+Session ID: b3df321e0bd969c0a62b75fea3e78ee6]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: Phone type dropdown is not visible expected [true] but found [false]
+              <![CDATA[java.lang.AssertionError: ❗ Exception during full account flow: element click intercepted: Element <button data-action="selectLink" class="btn btn-default btn-icon" type="button" title="Select">...</button> is not clickable at point (1272, 18). Other element would receive the click: <i class="fas fa-plus icon"></i>
+  (Session info: chrome=135.0.7049.96)
+Build info: version: '4.31.0', revision: '1ef9f18787*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b3df321e0bd969c0a62b75fea3e78ee6, clickElement {id=f.B91BB503AE92C83DC4213A84EF29C044.d.BAB8D87D71A7A79B6FC4787A1C4AF67B.e.118}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.96, chrome: {chromedriverVersion: 135.0.7049.95 (de2eb485a195..., userDataDir: C:\Users\xmedia\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53332}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53332/devtoo..., se:cdpVersion: 135.0.7049.96, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (b3df321e0bd969c0a62b75fea3e78ee6)] -> css selector: button[data-action='selectLink']:not([disabled])]
+Session ID: b3df321e0bd969c0a62b75fea3e78ee6
 at org.testng.Assert.fail(Assert.java:111)
-at org.testng.Assert.failNotEquals(Assert.java:1590)
-at org.testng.Assert.assertTrue(Assert.java:57)
-at testBase.AccountPageTest.testPhoneTypeDropdownVisibility(AccountPageTest.java:349)
+at testBase.AccountPageFlowTesting.fullAccountCreationAndVerificationFlow(AccountPageFlowTesting.java:82)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -839,46 +207,123 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testPhoneTypeDropdownVisibility -->
-        <test-method signature="testToggleCityColumn()[pri:0, instance:testBase.AccountPageTest@7161d8d1]" started-at="2025-04-20T12:40:44 IST" name="testToggleCityColumn" finished-at="2025-04-20T12:40:59 IST" duration-ms="15017" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchElementException">
+        </test-method> <!-- fullAccountCreationAndVerificationFlow -->
+        <test-method signature="fullAccountCreationAndVerificationFlow(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testBase.AccountPageFlowTesting@71ba6d4e]" started-at="2025-04-21T12:38:40 IST" name="fullAccountCreationAndVerificationFlow" data-provider="accountDataProvider" finished-at="2025-04-21T12:38:56 IST" duration-ms="15393" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Beta Corp]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://beta.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[invalid-email]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[9876543210]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[321 Oak St]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Chicago]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[IL]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[60601]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[USA]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[789 Pine St]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Houston]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[TX]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[77001]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[USA]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[Jane Smith]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[Marketing]]>
+              </value>
+            </param>
+            <param index="16">
+              <value>
+                <![CDATA[Test invalid email]]>
+              </value>
+            </param>
+            <param index="17">
+              <value>
+                <![CDATA[Customer]]>
+              </value>
+            </param>
+            <param index="18">
+              <value>
+                <![CDATA[Finance]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":".settings-container.pull-right"}
-  (Session info: chrome=135.0.7049.96)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+              <![CDATA[❗ Exception during full account flow: Expected condition failed: waiting for element to be clickable: By.cssSelector: li[data-name='Account'] > a.nav-link (tried for 15 second(s) with 500 milliseconds interval)
 Build info: version: '4.31.0', revision: '1ef9f18787*'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [663f7864c9d4b3e28045661db11b63e9, findElement {using=css selector, value=.settings-container.pull-right}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.96, chrome: {chromedriverVersion: 135.0.7049.95 (de2eb485a195..., userDataDir: C:\Users\xmedia\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64517}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64517/devtoo..., se:cdpVersion: 135.0.7049.96, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 663f7864c9d4b3e28045661db11b63e9]]>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.96, chrome: {chromedriverVersion: 135.0.7049.95 (de2eb485a195..., userDataDir: C:\Users\xmedia\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53332}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53332/devtoo..., se:cdpVersion: 135.0.7049.96, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b3df321e0bd969c0a62b75fea3e78ee6]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":".settings-container.pull-right"}
-  (Session info: chrome=135.0.7049.96)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+              <![CDATA[java.lang.AssertionError: ❗ Exception during full account flow: Expected condition failed: waiting for element to be clickable: By.cssSelector: li[data-name='Account'] > a.nav-link (tried for 15 second(s) with 500 milliseconds interval)
 Build info: version: '4.31.0', revision: '1ef9f18787*'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [663f7864c9d4b3e28045661db11b63e9, findElement {using=css selector, value=.settings-container.pull-right}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.96, chrome: {chromedriverVersion: 135.0.7049.95 (de2eb485a195..., userDataDir: C:\Users\xmedia\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64517}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64517/devtoo..., se:cdpVersion: 135.0.7049.96, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 663f7864c9d4b3e28045661db11b63e9
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
-at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
-at pageObjectClass.AccountPageLocators.clickSettingsDropdownToggle(AccountPageLocators.java:412)
-at testBase.AccountPageTest.testToggleCityColumn(AccountPageTest.java:251)
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.96, chrome: {chromedriverVersion: 135.0.7049.95 (de2eb485a195..., userDataDir: C:\Users\xmedia\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53332}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53332/devtoo..., se:cdpVersion: 135.0.7049.96, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b3df321e0bd969c0a62b75fea3e78ee6
+at org.testng.Assert.fail(Assert.java:111)
+at testBase.AccountPageFlowTesting.fullAccountCreationAndVerificationFlow(AccountPageFlowTesting.java:82)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -907,49 +352,132 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testToggleCityColumn -->
-        <test-method signature="testToggleColumnResize()[pri:0, instance:testBase.AccountPageTest@7161d8d1]" started-at="2025-04-20T12:40:59 IST" name="testToggleColumnResize" finished-at="2025-04-20T12:41:14 IST" duration-ms="15086" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchElementException">
+        </test-method> <!-- fullAccountCreationAndVerificationFlow -->
+        <test-method signature="fullAccountCreationAndVerificationFlow(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testBase.AccountPageFlowTesting@71ba6d4e]" started-at="2025-04-21T12:38:56 IST" name="fullAccountCreationAndVerificationFlow" data-provider="accountDataProvider" finished-at="2025-04-21T12:39:36 IST" duration-ms="39778" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Gamma LLC]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://gamma.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[support@gamma.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[456 Maple Ave]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Phoenix]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[AZ]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[85001]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[USA]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[321 Birch Rd]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Austin]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[TX]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[73301]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[USA]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[Mike Ross]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[Support]]>
+              </value>
+            </param>
+            <param index="16">
+              <value>
+                <![CDATA[Phone number is missing]]>
+              </value>
+            </param>
+            <param index="17">
+              <value>
+                <![CDATA[Partner]]>
+              </value>
+            </param>
+            <param index="18">
+              <value>
+                <![CDATA[Healthcare]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":".settings-container.pull-right"}
+              <![CDATA[❗ Exception during full account flow: element click intercepted: Element <button data-action="selectLink" class="btn btn-default btn-icon" type="button" title="Select">...</button> is not clickable at point (1272, 18). Other element would receive the click: <i class="fas fa-plus icon"></i>
   (Session info: chrome=135.0.7049.96)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.31.0', revision: '1ef9f18787*'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [663f7864c9d4b3e28045661db11b63e9, findElement {using=css selector, value=.settings-container.pull-right}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.96, chrome: {chromedriverVersion: 135.0.7049.95 (de2eb485a195..., userDataDir: C:\Users\xmedia\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64517}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64517/devtoo..., se:cdpVersion: 135.0.7049.96, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 663f7864c9d4b3e28045661db11b63e9]]>
+Command: [b3df321e0bd969c0a62b75fea3e78ee6, clickElement {id=f.B91BB503AE92C83DC4213A84EF29C044.d.BAB8D87D71A7A79B6FC4787A1C4AF67B.e.194}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.96, chrome: {chromedriverVersion: 135.0.7049.95 (de2eb485a195..., userDataDir: C:\Users\xmedia\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53332}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53332/devtoo..., se:cdpVersion: 135.0.7049.96, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (b3df321e0bd969c0a62b75fea3e78ee6)] -> css selector: button[data-action='selectLink']:not([disabled])]
+Session ID: b3df321e0bd969c0a62b75fea3e78ee6]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":".settings-container.pull-right"}
+              <![CDATA[java.lang.AssertionError: ❗ Exception during full account flow: element click intercepted: Element <button data-action="selectLink" class="btn btn-default btn-icon" type="button" title="Select">...</button> is not clickable at point (1272, 18). Other element would receive the click: <i class="fas fa-plus icon"></i>
   (Session info: chrome=135.0.7049.96)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.31.0', revision: '1ef9f18787*'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [663f7864c9d4b3e28045661db11b63e9, findElement {using=css selector, value=.settings-container.pull-right}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.96, chrome: {chromedriverVersion: 135.0.7049.95 (de2eb485a195..., userDataDir: C:\Users\xmedia\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64517}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64517/devtoo..., se:cdpVersion: 135.0.7049.96, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 663f7864c9d4b3e28045661db11b63e9
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
-at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
-at pageObjectClass.AccountPageLocators.clickSettingsDropdownToggle(AccountPageLocators.java:412)
-at testBase.AccountPageTest.testToggleColumnResize(AccountPageTest.java:257)
+Command: [b3df321e0bd969c0a62b75fea3e78ee6, clickElement {id=f.B91BB503AE92C83DC4213A84EF29C044.d.BAB8D87D71A7A79B6FC4787A1C4AF67B.e.194}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.96, chrome: {chromedriverVersion: 135.0.7049.95 (de2eb485a195..., userDataDir: C:\Users\xmedia\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53332}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53332/devtoo..., se:cdpVersion: 135.0.7049.96, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (b3df321e0bd969c0a62b75fea3e78ee6)] -> css selector: button[data-action='selectLink']:not([disabled])]
+Session ID: b3df321e0bd969c0a62b75fea3e78ee6
+at org.testng.Assert.fail(Assert.java:111)
+at testBase.AccountPageFlowTesting.fullAccountCreationAndVerificationFlow(AccountPageFlowTesting.java:82)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -978,49 +506,126 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testToggleColumnResize -->
-        <test-method signature="testToggleCountryColumn()[pri:0, instance:testBase.AccountPageTest@7161d8d1]" started-at="2025-04-20T12:41:14 IST" name="testToggleCountryColumn" finished-at="2025-04-20T12:41:29 IST" duration-ms="15079" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchElementException">
+        </test-method> <!-- fullAccountCreationAndVerificationFlow -->
+        <test-method signature="fullAccountCreationAndVerificationFlow(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testBase.AccountPageFlowTesting@71ba6d4e]" started-at="2025-04-21T12:39:36 IST" name="fullAccountCreationAndVerificationFlow" data-provider="accountDataProvider" finished-at="2025-04-21T12:39:51 IST" duration-ms="15441" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://delta.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[contact@delta.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[5551234567]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[777 Cedar St]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Miami]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[FL]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[33101]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[USA]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[999 Palm Ave]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Orlando]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[FL]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[32801]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[USA]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[Rachel Green]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[HR]]>
+              </value>
+            </param>
+            <param index="16">
+              <value>
+                <![CDATA[Missing name]]>
+              </value>
+            </param>
+            <param index="17">
+              <value>
+                <![CDATA[Customer]]>
+              </value>
+            </param>
+            <param index="18">
+              <value>
+                <![CDATA[Retail]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":".settings-container.pull-right"}
-  (Session info: chrome=135.0.7049.96)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+              <![CDATA[❗ Exception during full account flow: Expected condition failed: waiting for element to be clickable: By.cssSelector: li[data-name='Account'] > a.nav-link (tried for 15 second(s) with 500 milliseconds interval)
 Build info: version: '4.31.0', revision: '1ef9f18787*'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [663f7864c9d4b3e28045661db11b63e9, findElement {using=css selector, value=.settings-container.pull-right}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.96, chrome: {chromedriverVersion: 135.0.7049.95 (de2eb485a195..., userDataDir: C:\Users\xmedia\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64517}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64517/devtoo..., se:cdpVersion: 135.0.7049.96, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 663f7864c9d4b3e28045661db11b63e9]]>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.96, chrome: {chromedriverVersion: 135.0.7049.95 (de2eb485a195..., userDataDir: C:\Users\xmedia\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53332}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53332/devtoo..., se:cdpVersion: 135.0.7049.96, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b3df321e0bd969c0a62b75fea3e78ee6]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":".settings-container.pull-right"}
-  (Session info: chrome=135.0.7049.96)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+              <![CDATA[java.lang.AssertionError: ❗ Exception during full account flow: Expected condition failed: waiting for element to be clickable: By.cssSelector: li[data-name='Account'] > a.nav-link (tried for 15 second(s) with 500 milliseconds interval)
 Build info: version: '4.31.0', revision: '1ef9f18787*'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [663f7864c9d4b3e28045661db11b63e9, findElement {using=css selector, value=.settings-container.pull-right}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.96, chrome: {chromedriverVersion: 135.0.7049.95 (de2eb485a195..., userDataDir: C:\Users\xmedia\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64517}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64517/devtoo..., se:cdpVersion: 135.0.7049.96, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 663f7864c9d4b3e28045661db11b63e9
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
-at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
-at pageObjectClass.AccountPageLocators.clickSettingsDropdownToggle(AccountPageLocators.java:412)
-at testBase.AccountPageTest.testToggleCountryColumn(AccountPageTest.java:245)
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.96, chrome: {chromedriverVersion: 135.0.7049.95 (de2eb485a195..., userDataDir: C:\Users\xmedia\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53332}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53332/devtoo..., se:cdpVersion: 135.0.7049.96, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b3df321e0bd969c0a62b75fea3e78ee6
+at org.testng.Assert.fail(Assert.java:111)
+at testBase.AccountPageFlowTesting.fullAccountCreationAndVerificationFlow(AccountPageFlowTesting.java:82)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -1049,49 +654,132 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testToggleCountryColumn -->
-        <test-method signature="testToggleIndustryColumn()[pri:0, instance:testBase.AccountPageTest@7161d8d1]" started-at="2025-04-20T12:41:29 IST" name="testToggleIndustryColumn" finished-at="2025-04-20T12:41:44 IST" duration-ms="15028" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchElementException">
+        </test-method> <!-- fullAccountCreationAndVerificationFlow -->
+        <test-method signature="fullAccountCreationAndVerificationFlow(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testBase.AccountPageFlowTesting@71ba6d4e]" started-at="2025-04-21T12:39:52 IST" name="fullAccountCreationAndVerificationFlow" data-provider="accountDataProvider" finished-at="2025-04-21T12:40:31 IST" duration-ms="39215" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Zeta Enterprise Holdings International United Global Ltd.]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://zeta.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[info@zeta.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1112223333]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[888 Willow Way]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Denver]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[CO]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[80201]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[USA]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[888 Oak Blvd]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Seattle]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[WA]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[98101]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[USA]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[Harvey Specter]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[Legal]]>
+              </value>
+            </param>
+            <param index="16">
+              <value>
+                <![CDATA[Very long name input]]>
+              </value>
+            </param>
+            <param index="17">
+              <value>
+                <![CDATA[Customer]]>
+              </value>
+            </param>
+            <param index="18">
+              <value>
+                <![CDATA[Legal]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":".settings-container.pull-right"}
+              <![CDATA[❗ Exception during full account flow: element click intercepted: Element <button data-action="selectLink" class="btn btn-default btn-icon" type="button" title="Select">...</button> is not clickable at point (1272, 18). Other element would receive the click: <i class="fas fa-plus icon"></i>
   (Session info: chrome=135.0.7049.96)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.31.0', revision: '1ef9f18787*'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [663f7864c9d4b3e28045661db11b63e9, findElement {using=css selector, value=.settings-container.pull-right}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.96, chrome: {chromedriverVersion: 135.0.7049.95 (de2eb485a195..., userDataDir: C:\Users\xmedia\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64517}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64517/devtoo..., se:cdpVersion: 135.0.7049.96, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 663f7864c9d4b3e28045661db11b63e9]]>
+Command: [b3df321e0bd969c0a62b75fea3e78ee6, clickElement {id=f.B91BB503AE92C83DC4213A84EF29C044.d.BAB8D87D71A7A79B6FC4787A1C4AF67B.e.287}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.96, chrome: {chromedriverVersion: 135.0.7049.95 (de2eb485a195..., userDataDir: C:\Users\xmedia\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53332}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53332/devtoo..., se:cdpVersion: 135.0.7049.96, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (b3df321e0bd969c0a62b75fea3e78ee6)] -> css selector: button[data-action='selectLink']:not([disabled])]
+Session ID: b3df321e0bd969c0a62b75fea3e78ee6]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":".settings-container.pull-right"}
+              <![CDATA[java.lang.AssertionError: ❗ Exception during full account flow: element click intercepted: Element <button data-action="selectLink" class="btn btn-default btn-icon" type="button" title="Select">...</button> is not clickable at point (1272, 18). Other element would receive the click: <i class="fas fa-plus icon"></i>
   (Session info: chrome=135.0.7049.96)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.31.0', revision: '1ef9f18787*'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [663f7864c9d4b3e28045661db11b63e9, findElement {using=css selector, value=.settings-container.pull-right}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.96, chrome: {chromedriverVersion: 135.0.7049.95 (de2eb485a195..., userDataDir: C:\Users\xmedia\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64517}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64517/devtoo..., se:cdpVersion: 135.0.7049.96, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 663f7864c9d4b3e28045661db11b63e9
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
-at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
-at pageObjectClass.AccountPageLocators.clickSettingsDropdownToggle(AccountPageLocators.java:412)
-at testBase.AccountPageTest.testToggleIndustryColumn(AccountPageTest.java:233)
+Command: [b3df321e0bd969c0a62b75fea3e78ee6, clickElement {id=f.B91BB503AE92C83DC4213A84EF29C044.d.BAB8D87D71A7A79B6FC4787A1C4AF67B.e.287}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.96, chrome: {chromedriverVersion: 135.0.7049.95 (de2eb485a195..., userDataDir: C:\Users\xmedia\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53332}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53332/devtoo..., se:cdpVersion: 135.0.7049.96, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (b3df321e0bd969c0a62b75fea3e78ee6)] -> css selector: button[data-action='selectLink']:not([disabled])]
+Session ID: b3df321e0bd969c0a62b75fea3e78ee6
+at org.testng.Assert.fail(Assert.java:111)
+at testBase.AccountPageFlowTesting.fullAccountCreationAndVerificationFlow(AccountPageFlowTesting.java:82)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -1120,45 +808,767 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testToggleIndustryColumn -->
-        <test-method signature="testToggleTypeColumn()[pri:0, instance:testBase.AccountPageTest@7161d8d1]" started-at="2025-04-20T12:41:45 IST" name="testToggleTypeColumn" finished-at="2025-04-20T12:41:52 IST" duration-ms="7819" status="PASS">
+        </test-method> <!-- fullAccountCreationAndVerificationFlow -->
+        <test-method signature="fullAccountCreationAndVerificationFlow(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testBase.AccountPageFlowTesting@71ba6d4e]" started-at="2025-04-21T12:40:31 IST" name="fullAccountCreationAndVerificationFlow" data-provider="accountDataProvider" finished-at="2025-04-21T12:40:46 IST" duration-ms="15088" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Eta Ltd]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[htp://invalid-url]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[eta@company.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[3334445555]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[555 Lakeview]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Boston]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[MA]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[02101]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[USA]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[666 Riverside]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Portland]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[OR]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[97201]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[USA]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[Jessica Pearson]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[IT]]>
+              </value>
+            </param>
+            <param index="16">
+              <value>
+                <![CDATA[Invalid website URL]]>
+              </value>
+            </param>
+            <param index="17">
+              <value>
+                <![CDATA[Prospect]]>
+              </value>
+            </param>
+            <param index="18">
+              <value>
+                <![CDATA[Education]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[❗ Exception during full account flow: Expected condition failed: waiting for element to be clickable: By.cssSelector: li[data-name='Account'] > a.nav-link (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: '4.31.0', revision: '1ef9f18787*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.96, chrome: {chromedriverVersion: 135.0.7049.95 (de2eb485a195..., userDataDir: C:\Users\xmedia\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53332}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53332/devtoo..., se:cdpVersion: 135.0.7049.96, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b3df321e0bd969c0a62b75fea3e78ee6]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: ❗ Exception during full account flow: Expected condition failed: waiting for element to be clickable: By.cssSelector: li[data-name='Account'] > a.nav-link (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: '4.31.0', revision: '1ef9f18787*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.96, chrome: {chromedriverVersion: 135.0.7049.95 (de2eb485a195..., userDataDir: C:\Users\xmedia\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53332}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53332/devtoo..., se:cdpVersion: 135.0.7049.96, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b3df321e0bd969c0a62b75fea3e78ee6
+at org.testng.Assert.fail(Assert.java:111)
+at testBase.AccountPageFlowTesting.fullAccountCreationAndVerificationFlow(AccountPageFlowTesting.java:82)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testToggleTypeColumn -->
-        <test-method signature="typeFilterOptionIsClickable()[pri:0, instance:testBase.AccountPageTest@7161d8d1]" started-at="2025-04-20T12:41:52 IST" name="typeFilterOptionIsClickable" finished-at="2025-04-20T12:41:53 IST" duration-ms="698" status="PASS">
+        </test-method> <!-- fullAccountCreationAndVerificationFlow -->
+        <test-method signature="fullAccountCreationAndVerificationFlow(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testBase.AccountPageFlowTesting@71ba6d4e]" started-at="2025-04-21T12:40:46 IST" name="fullAccountCreationAndVerificationFlow" data-provider="accountDataProvider" finished-at="2025-04-21T12:41:02 IST" duration-ms="15112" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Theta Co]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://theta.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[hello@theta.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[4445556666]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[900 Spring St]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Atlanta]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[GA]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[30301]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[1000 Autumn Ln]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Charlotte]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[NC]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[28201]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[USA]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[Nick Fury]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="16">
+              <value>
+                <![CDATA[Missing billing country]]>
+              </value>
+            </param>
+            <param index="17">
+              <value>
+                <![CDATA[Customer]]>
+              </value>
+            </param>
+            <param index="18">
+              <value>
+                <![CDATA[Technology]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[❗ Exception during full account flow: Expected condition failed: waiting for element to be clickable: By.cssSelector: li[data-name='Account'] > a.nav-link (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: '4.31.0', revision: '1ef9f18787*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.96, chrome: {chromedriverVersion: 135.0.7049.95 (de2eb485a195..., userDataDir: C:\Users\xmedia\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53332}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53332/devtoo..., se:cdpVersion: 135.0.7049.96, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b3df321e0bd969c0a62b75fea3e78ee6]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: ❗ Exception during full account flow: Expected condition failed: waiting for element to be clickable: By.cssSelector: li[data-name='Account'] > a.nav-link (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: '4.31.0', revision: '1ef9f18787*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.96, chrome: {chromedriverVersion: 135.0.7049.95 (de2eb485a195..., userDataDir: C:\Users\xmedia\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53332}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53332/devtoo..., se:cdpVersion: 135.0.7049.96, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b3df321e0bd969c0a62b75fea3e78ee6
+at org.testng.Assert.fail(Assert.java:111)
+at testBase.AccountPageFlowTesting.fullAccountCreationAndVerificationFlow(AccountPageFlowTesting.java:82)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- typeFilterOptionIsClickable -->
-        <test-method signature="websiteFilterIsClickable()[pri:0, instance:testBase.AccountPageTest@7161d8d1]" started-at="2025-04-20T12:41:53 IST" name="websiteFilterIsClickable" finished-at="2025-04-20T12:41:53 IST" duration-ms="404" status="PASS">
+        </test-method> <!-- fullAccountCreationAndVerificationFlow -->
+        <test-method signature="fullAccountCreationAndVerificationFlow(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testBase.AccountPageFlowTesting@71ba6d4e]" started-at="2025-04-21T12:41:02 IST" name="fullAccountCreationAndVerificationFlow" data-provider="accountDataProvider" finished-at="2025-04-21T12:41:17 IST" duration-ms="15044" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Iota Systems]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://iota.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[team@iota.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[2223334444]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[100 Tech Park]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[San Jose]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[CA]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[95101]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[USA]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[100 Tech Park]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[San Jose]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[CA]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[95101]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[USA]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[Natasha Romanoff]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[R&D]]>
+              </value>
+            </param>
+            <param index="16">
+              <value>
+                <![CDATA[Same billing and shipping]]>
+              </value>
+            </param>
+            <param index="17">
+              <value>
+                <![CDATA[Partner]]>
+              </value>
+            </param>
+            <param index="18">
+              <value>
+                <![CDATA[Manufacturing]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[❗ Exception during full account flow: Expected condition failed: waiting for element to be clickable: By.cssSelector: li[data-name='Account'] > a.nav-link (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: '4.31.0', revision: '1ef9f18787*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.96, chrome: {chromedriverVersion: 135.0.7049.95 (de2eb485a195..., userDataDir: C:\Users\xmedia\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53332}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53332/devtoo..., se:cdpVersion: 135.0.7049.96, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b3df321e0bd969c0a62b75fea3e78ee6]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: ❗ Exception during full account flow: Expected condition failed: waiting for element to be clickable: By.cssSelector: li[data-name='Account'] > a.nav-link (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: '4.31.0', revision: '1ef9f18787*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.96, chrome: {chromedriverVersion: 135.0.7049.95 (de2eb485a195..., userDataDir: C:\Users\xmedia\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53332}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53332/devtoo..., se:cdpVersion: 135.0.7049.96, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b3df321e0bd969c0a62b75fea3e78ee6
+at org.testng.Assert.fail(Assert.java:111)
+at testBase.AccountPageFlowTesting.fullAccountCreationAndVerificationFlow(AccountPageFlowTesting.java:82)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- websiteFilterIsClickable -->
-        <test-method signature="createAccountButtonIsClickable()[pri:0, instance:testBase.AccountPageTest@7161d8d1]" started-at="2025-04-20T12:41:53 IST" name="createAccountButtonIsClickable" finished-at="2025-04-20T12:41:54 IST" depends-on-methods="testBase.AccountPageTest.websiteFilterIsClickable" duration-ms="388" status="PASS">
+        </test-method> <!-- fullAccountCreationAndVerificationFlow -->
+        <test-method signature="fullAccountCreationAndVerificationFlow(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testBase.AccountPageFlowTesting@71ba6d4e]" started-at="2025-04-21T12:41:17 IST" name="fullAccountCreationAndVerificationFlow" data-provider="accountDataProvider" finished-at="2025-04-21T12:41:57 IST" duration-ms="40132" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Kappa Ltd]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://kappa.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[contact@kappa.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[9998887777]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[88 Windy Dr]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Las Vegas]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[NV]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[89101]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[USA]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[77 Sunny Rd]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[San Diego]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[CA]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[92101]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[USA]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[Bruce Wayne]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[Security]]>
+              </value>
+            </param>
+            <param index="16">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="17">
+              <value>
+                <![CDATA[Customer]]>
+              </value>
+            </param>
+            <param index="18">
+              <value>
+                <![CDATA[Aerospace]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[❗ Exception during full account flow: element click intercepted: Element <button data-action="selectLink" class="btn btn-default btn-icon" type="button" title="Select">...</button> is not clickable at point (1272, 18). Other element would receive the click: <i class="fas fa-plus icon"></i>
+  (Session info: chrome=135.0.7049.96)
+Build info: version: '4.31.0', revision: '1ef9f18787*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b3df321e0bd969c0a62b75fea3e78ee6, clickElement {id=f.B91BB503AE92C83DC4213A84EF29C044.d.BAB8D87D71A7A79B6FC4787A1C4AF67B.e.382}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.96, chrome: {chromedriverVersion: 135.0.7049.95 (de2eb485a195..., userDataDir: C:\Users\xmedia\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53332}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53332/devtoo..., se:cdpVersion: 135.0.7049.96, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (b3df321e0bd969c0a62b75fea3e78ee6)] -> css selector: button[data-action='selectLink']:not([disabled])]
+Session ID: b3df321e0bd969c0a62b75fea3e78ee6]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: ❗ Exception during full account flow: element click intercepted: Element <button data-action="selectLink" class="btn btn-default btn-icon" type="button" title="Select">...</button> is not clickable at point (1272, 18). Other element would receive the click: <i class="fas fa-plus icon"></i>
+  (Session info: chrome=135.0.7049.96)
+Build info: version: '4.31.0', revision: '1ef9f18787*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b3df321e0bd969c0a62b75fea3e78ee6, clickElement {id=f.B91BB503AE92C83DC4213A84EF29C044.d.BAB8D87D71A7A79B6FC4787A1C4AF67B.e.382}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.96, chrome: {chromedriverVersion: 135.0.7049.95 (de2eb485a195..., userDataDir: C:\Users\xmedia\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53332}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53332/devtoo..., se:cdpVersion: 135.0.7049.96, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (b3df321e0bd969c0a62b75fea3e78ee6)] -> css selector: button[data-action='selectLink']:not([disabled])]
+Session ID: b3df321e0bd969c0a62b75fea3e78ee6
+at org.testng.Assert.fail(Assert.java:111)
+at testBase.AccountPageFlowTesting.fullAccountCreationAndVerificationFlow(AccountPageFlowTesting.java:82)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- createAccountButtonIsClickable -->
-        <test-method signature="testClickSaveButton()[pri:0, instance:testBase.AccountPageTest@7161d8d1]" started-at="2025-04-20T12:41:54 IST" name="testClickSaveButton" finished-at="2025-04-20T12:42:00 IST" depends-on-methods="testBase.AccountPageTest.createAccountButtonIsClickable" duration-ms="6210" status="PASS">
+        </test-method> <!-- fullAccountCreationAndVerificationFlow -->
+        <test-method signature="fullAccountCreationAndVerificationFlow(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testBase.AccountPageFlowTesting@71ba6d4e]" started-at="2025-04-21T12:41:57 IST" name="fullAccountCreationAndVerificationFlow" data-provider="accountDataProvider" finished-at="2025-04-21T12:42:12 IST" duration-ms="15165" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Lambda Tech]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://lambda.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[support@lambda.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[3332211000]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[111 Data St]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Raleigh]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[NC]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[ABCDE]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[USA]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[222 Info Rd]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Tampa]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[FL]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[123AB]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[USA]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[Clark Kent]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[Dev]]>
+              </value>
+            </param>
+            <param index="16">
+              <value>
+                <![CDATA[Invalid postal codes]]>
+              </value>
+            </param>
+            <param index="17">
+              <value>
+                <![CDATA[Customer]]>
+              </value>
+            </param>
+            <param index="18">
+              <value>
+                <![CDATA[Software]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[❗ Exception during full account flow: Expected condition failed: waiting for element to be clickable: By.cssSelector: li[data-name='Account'] > a.nav-link (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: '4.31.0', revision: '1ef9f18787*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.96, chrome: {chromedriverVersion: 135.0.7049.95 (de2eb485a195..., userDataDir: C:\Users\xmedia\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53332}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53332/devtoo..., se:cdpVersion: 135.0.7049.96, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b3df321e0bd969c0a62b75fea3e78ee6]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: ❗ Exception during full account flow: Expected condition failed: waiting for element to be clickable: By.cssSelector: li[data-name='Account'] > a.nav-link (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: '4.31.0', revision: '1ef9f18787*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.96, chrome: {chromedriverVersion: 135.0.7049.95 (de2eb485a195..., userDataDir: C:\Users\xmedia\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53332}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53332/devtoo..., se:cdpVersion: 135.0.7049.96, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b3df321e0bd969c0a62b75fea3e78ee6
+at org.testng.Assert.fail(Assert.java:111)
+at testBase.AccountPageFlowTesting.fullAccountCreationAndVerificationFlow(AccountPageFlowTesting.java:82)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testClickSaveButton -->
-        <test-method signature="testClickCancelButton()[pri:0, instance:testBase.AccountPageTest@7161d8d1]" started-at="2025-04-20T12:42:00 IST" name="testClickCancelButton" finished-at="2025-04-20T12:42:00 IST" depends-on-methods="testBase.AccountPageTest.testClickSaveButton" duration-ms="331" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testClickCancelButton -->
-      </class> <!-- testBase.AccountPageTest -->
+        </test-method> <!-- fullAccountCreationAndVerificationFlow -->
+      </class> <!-- testBase.AccountPageFlowTesting -->
       <class name="testBase.LoginPageTest">
-        <test-method is-config="true" signature="setUpTheBrowser()[pri:0, instance:testBase.LoginPageTest@54422e18]" started-at="2025-04-20T12:33:21 IST" name="setUpTheBrowser" finished-at="2025-04-20T12:33:30 IST" duration-ms="8743" status="PASS">
+        <test-method is-config="true" signature="setUpTheBrowser()[pri:0, instance:testBase.LoginPageTest@6574a52c]" started-at="2025-04-21T12:37:35 IST" name="setUpTheBrowser" finished-at="2025-04-21T12:37:57 IST" duration-ms="21816" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpTheBrowser -->
-        <test-method signature="loginTheEspoCRM()[pri:0, instance:testBase.LoginPageTest@54422e18]" started-at="2025-04-20T12:33:30 IST" name="loginTheEspoCRM" finished-at="2025-04-20T12:33:36 IST" duration-ms="5955" status="PASS">
+        <test-method signature="loginTheEspoCRM()[pri:0, instance:testBase.LoginPageTest@6574a52c]" started-at="2025-04-21T12:37:57 IST" name="loginTheEspoCRM" finished-at="2025-04-21T12:38:03 IST" duration-ms="6024" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTheEspoCRM -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:testBase.LoginPageTest@54422e18]" started-at="2025-04-20T12:42:00 IST" name="teardown" finished-at="2025-04-20T12:42:00 IST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testBase.LoginPageTest@6574a52c]" started-at="2025-04-21T12:42:13 IST" name="teardown" finished-at="2025-04-21T12:42:13 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->

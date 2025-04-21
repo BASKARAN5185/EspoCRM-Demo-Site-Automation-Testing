@@ -8,6 +8,7 @@ import org.openqa.selenium.TimeoutException;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import MyProject.demo.us.espocrm.com.BaseClass;
@@ -126,8 +127,8 @@ public class AccountPageLocators extends BaseClass {
 	By copyBillingButton = By.xpath("//button[contains(text(), 'Copy Billing')]");
 
 	// ======= DROPDOWNS =======
-	By typeDropdown = By.cssSelector("select[data-name='type']");
-	By industryDropdown = By.cssSelector("select[data-name='industry']");
+	By typeDropdown = By.xpath("(//div[contains(@class,'selectize-input items')])[2]");
+	By industryDropdown = By.xpath("(//div[contains(@class,'selectize-input items')])[3]");
 
 	// ======= DESCRIPTION =======
 	By descriptionTextarea = By.cssSelector("textarea[data-name='description']");
@@ -143,11 +144,20 @@ public class AccountPageLocators extends BaseClass {
 
 	// account tab click
 	public boolean clickAccountsTab() {
-		WebElement accountTabClick=driver.findElement(accountsTab);
-		JavascriptExecutor js = (JavascriptExecutor) driver;
-		js.executeScript("arguments[0].click();", accountTabClick);
-		return true;
+	    WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(15));
+
+	    // Wait until the element is visible and clickable
+	    By accountTabLocator = By.cssSelector("li[data-name='Account'] > a.nav-link");
+	    WebElement accountTab = wait.until(ExpectedConditions.elementToBeClickable(accountTabLocator));
+
+	    // Use JS executor to click
+	    JavascriptExecutor js = (JavascriptExecutor) driver;
+	    js.executeScript("arguments[0].click();", accountTab);
+
+	    return true;
 	}
+
+	
 
 	// Method to get the header title
 	public String getHeaderTitle() {
@@ -456,15 +466,28 @@ public class AccountPageLocators extends BaseClass {
 	}
 
 	public void confirmLeaveFormIfVisible(RemoteWebDriver driver) {
-	    WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+	    WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(20));
 
 	    try {
-	        // Wait for the "Yes" button to be clickable directly
-	        WebElement yesButton = wait.until(ExpectedConditions.elementToBeClickable(
-	            By.xpath("//button[@data-name='confirm' and normalize-space(text())='Yes']")));
+	        System.out.println("Waiting for confirmation popup...");
 
-	        yesButton.click();
-	        System.out.println("Confirmation dialog appeared and 'Yes' was clicked.");
+	        WebElement yesButton = wait.until(ExpectedConditions.presenceOfElementLocated(
+	            By.xpath("//button[@data-name='confirm' and contains(., 'Yes')]")));
+
+	        ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", yesButton);
+	        wait.until(ExpectedConditions.elementToBeClickable(yesButton)).click();
+
+	        System.out.println("Clicked 'Yes' on confirmation popup.");
+
+	        // Optional: wait for "Are you sure..." message to appear after clicking
+	        try {
+	            WebElement leaveFormText = wait.until(ExpectedConditions.visibilityOfElementLocated(
+	                By.xpath("//*[contains(text(), 'Are you sure you want to leave the form')]")));
+	            System.out.println("'Are you sure...' message appeared after clicking 'Yes'.");
+	        } catch (TimeoutException e) {
+	            System.out.println("'Are you sure...' message did not appear after clicking.");
+	        }
+
 	    } catch (TimeoutException e) {
 	        System.out.println("No confirmation popup appeared. Nothing to click.");
 	    } catch (Exception e) {
@@ -473,38 +496,38 @@ public class AccountPageLocators extends BaseClass {
 	}
 
 
-	
+
 	public boolean clickActionToggleButton() {
 		driver.findElement(ActionDropdownToggle).click();
 		return true;
 	}
 
 	public boolean clickSaveButton() {
-		WebElement SaveButton=driver.findElement(saveButton);
+		WebElement SaveButton = driver.findElement(saveButton);
 		JavascriptExecutor js = (JavascriptExecutor) driver;
-		js.executeScript("arguments[0].click();",SaveButton);
+		js.executeScript("arguments[0].click();", SaveButton);
 		return true;
-	
+
 	}
 
 	public boolean clickCancelButton() {
-		WebElement cancelingButton=driver.findElement(cancelButton);
+		WebElement cancelingButton = driver.findElement(cancelButton);
 		JavascriptExecutor js = (JavascriptExecutor) driver;
-		js.executeScript("arguments[0].click();",cancelingButton);
+		js.executeScript("arguments[0].click();", cancelingButton);
 		return true;
 	}
 
 	public boolean clickSaveAndContinueButton() {
-		WebElement SaveContinueButton=driver.findElement(saveAndContinueButton);
+		WebElement SaveContinueButton = driver.findElement(saveAndContinueButton);
 		JavascriptExecutor js = (JavascriptExecutor) driver;
-		js.executeScript("arguments[0].click();",SaveContinueButton);
+		js.executeScript("arguments[0].click();", SaveContinueButton);
 		return true;
 	}
 
 	public boolean clickSaveAndNewButton() {
-		WebElement SaveButtonAndNew=driver.findElement(saveAndNewButton);
+		WebElement SaveButtonAndNew = driver.findElement(saveAndNewButton);
 		JavascriptExecutor js = (JavascriptExecutor) driver;
-		js.executeScript("arguments[0].click();",SaveButtonAndNew);
+		js.executeScript("arguments[0].click();", SaveButtonAndNew);
 		return true;
 	}
 
@@ -591,12 +614,18 @@ public class AccountPageLocators extends BaseClass {
 	}
 
 	// ======= DROPDOWN VISIBILITY =======
-	public boolean isTypeDropdownVisible() {
-		return driver.findElement(typeDropdown).isDisplayed();
+	public boolean isTypeDropdownVisible(String value) {
+		WebElement TypeDrodown1 = driver.findElement(typeDropdown);
+		Select dd = new Select(TypeDrodown1);
+		dd.selectByVisibleText(value);
+		return true;
 	}
 
-	public boolean isIndustryDropdownVisible() {
-		return driver.findElement(industryDropdown).isDisplayed();
+	public boolean isIndustryDropdownVisible(String value ) {
+		WebElement IndustryDD= driver.findElement(industryDropdown);
+		Select dd = new Select(IndustryDD);
+		dd.selectByVisibleText(value);
+		return true;
 	}
 
 	// ======= DESCRIPTION =======

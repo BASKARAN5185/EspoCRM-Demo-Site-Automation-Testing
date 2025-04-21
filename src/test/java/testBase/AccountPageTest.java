@@ -345,9 +345,10 @@ public class AccountPageTest extends BaseClass {
 	public void testPhoneTypeDropdownVisibility() {
 		accountPage.clickAccountsTab();
 		accountPage.clickCreateAccountButton();
-		//Assert.assertTrue(accountPage.enterName("Test Account 908"), "Failed to enter account name");
+		// Assert.assertTrue(accountPage.enterName("Test Account 908"), "Failed to enter
+		// account name");
 		Assert.assertTrue(accountPage.isPhoneTypeDropdownVisible(), "Phone type dropdown is not visible");
-		
+
 	}
 
 	// ======= BILLING ADDRESS INPUT TEST =======

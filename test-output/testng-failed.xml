@@ -6,23 +6,13 @@
   </listeners>
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="testBase.AccountPageTest">
+      <class name="testBase.AccountPageFlowTesting">
         <methods>
-          <include name="testClickSaveAndContinueButton"/>
-          <include name="billingAddressFilterIsClickable"/>
-          <include name="filterOptionAllIsSelectable"/>
-          <include name="testClickSaveAndNewButton"/>
-          <include name="testClickCopyBillingButton"/>
-          <include name="testToggleCountryColumn"/>
-          <include name="testPhoneTypeDropdownVisibility"/>
-          <include name="testToggleCityColumn"/>
+          <include name="fullAccountCreationAndVerificationFlow" invocation-numbers="0 1 2 3 4 5 6 7 8 9"/>
           <include name="teardown"/>
-          <include name="testPaginationNextClick"/>
           <include name="setUpTheBrowser"/>
-          <include name="testToggleColumnResize"/>
-          <include name="testToggleIndustryColumn"/>
         </methods>
-      </class> <!-- testBase.AccountPageTest -->
+      </class> <!-- testBase.AccountPageFlowTesting -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

@@ -18,22 +18,20 @@ import com.aventstack.extentreports.reporter.ExtentSparkReporter;
 import com.aventstack.extentreports.reporter.configuration.Theme;
 
 public class ExtentReportManager implements ITestListener {
-    public ExtentSparkReporter sparkReporter;
-    public ExtentReports extent;
-    public ExtentTest test;
-    String repName;
+
+    private ExtentSparkReporter sparkReporter;
+    private ExtentReports extent;
+    private static ThreadLocal<ExtentTest> extentTest = new ThreadLocal<>();
+    private String repName;
 
     @Override
     public void onStart(ITestContext testContext) {
-        // Generate the timestamp for the report name
         String timeStamp = new SimpleDateFormat("yyyy.MM.dd.HH.mm.ss").format(new Date());
         repName = "EspoCRM Test-Report-" + timeStamp + ".html";
 
-        // Specify the absolute path for storing the report on the Desktop
         String reportPath = "C:\\Users\\xmedia\\Desktop\\Automation Test Report\\" + repName;
         sparkReporter = new ExtentSparkReporter(reportPath);
 
-        // Set up report title and configuration
         sparkReporter.config().setDocumentTitle("EspoCRM Automation Report");
         sparkReporter.config().setReportName("EspoCRM Functional Testing");
         sparkReporter.config().setTheme(Theme.STANDARD);
@@ -41,7 +39,6 @@ public class ExtentReportManager implements ITestListener {
         extent = new ExtentReports();
         extent.attachReporter(sparkReporter);
 
-        // Set system information for the report
         extent.setSystemInfo("Application", "EspoCRM");
         extent.setSystemInfo("All Module", "Admin");
         extent.setSystemInfo("Sub Module", "Customers");
@@ -50,7 +47,6 @@ public class ExtentReportManager implements ITestListener {
         extent.setSystemInfo("Operating System", "Windows 10");
         extent.setSystemInfo("Browser", "Chrome");
 
-        // Add any included groups to the report
         List<String> includedGroups = testContext.getCurrentXmlTest().getIncludedGroups();
         if (!includedGroups.isEmpty()) {
             extent.setSystemInfo("Groups", includedGroups.toString());
@@ -58,49 +54,60 @@ public class ExtentReportManager implements ITestListener {
     }
 
     @Override
+    public void onTestStart(ITestResult result) {
+        System.out.println("Test started: " + result.getMethod().getMethodName());
+
+        ExtentTest test = extent.createTest(
+                result.getTestClass().getName() + " - " + result.getMethod().getMethodName()
+        );
+        test.assignCategory(result.getMethod().getGroups());
+        extentTest.set(test);
+    }
+
+    @Override
     public void onTestSuccess(ITestResult result) {
-        // Creating a single instance of the test for the class and method name
-        test = extent.createTest(result.getTestClass().getName() + " - " + result.getMethod().getMethodName());
-        test.assignCategory(result.getMethod().getGroups()); // Display groups in the report
-        test.log(Status.PASS, result.getName() + " got successfully executed");
+        extentTest.get().log(Status.PASS, result.getName() + " got successfully executed");
     }
 
     @Override
     public void onTestFailure(ITestResult result) {
-        // Creating a single instance of the test for the class and method name
-        test = extent.createTest(result.getTestClass().getName() + " - " + result.getMethod().getMethodName());
-        test.assignCategory(result.getMethod().getGroups()); // Display groups in the report
+        ExtentTest test = extentTest.get();
         test.log(Status.FAIL, result.getName() + " failed");
         test.log(Status.INFO, result.getThrowable().getMessage());
 
         try {
-            // Capture screenshot on failure and get the file path
+            // Screenshot capture (modify this to match your actual method)
             String imgPath = new MyProject.demo.us.espocrm.com.BaseClass().captureScreen(result.getName());
             test.addScreenCaptureFromPath(imgPath);
-        } catch (IOException e1) {
-            e1.printStackTrace();
+        } catch (IOException e) {
+            e.printStackTrace();
         }
     }
 
     @Override
     public void onTestSkipped(ITestResult result) {
-        // Creating a single instance of the test for the class and method name
-        test = extent.createTest(result.getTestClass().getName() + " - " + result.getMethod().getMethodName());
-        test.assignCategory(result.getMethod().getGroups());
+        ExtentTest test = extentTest.get();
         test.log(Status.SKIP, result.getName() + " got skipped");
+        if (result.getThrowable() != null) {
+            test.log(Status.INFO, result.getThrowable().getMessage());
+        }
+    }
+
+    @Override
+    public void onTestFailedButWithinSuccessPercentage(ITestResult result) {
+        ExtentTest test = extentTest.get();
+        test.log(Status.WARNING, result.getName() + " failed but is within the success percentage.");
         test.log(Status.INFO, result.getThrowable().getMessage());
     }
 
     @Override
     public void onFinish(ITestContext testContext) {
-        extent.flush(); // Write the report to file
+        extent.flush();
 
-        // Path to open the report after execution
         String pathOfExtentReport = "C:\\Users\\xmedia\\Desktop\\Automation Test Report\\" + repName;
         File extentReport = new File(pathOfExtentReport);
 
         try {
-            // Open the report automatically in the default browser
             if (Desktop.isDesktopSupported()) {
                 Desktop.getDesktop().browse(extentReport.toURI());
             } else {
@@ -109,26 +116,5 @@ public class ExtentReportManager implements ITestListener {
         } catch (IOException e) {
             e.printStackTrace();
         }
-    }
-
-    @Override
-    public void onTestStart(ITestResult result) {
-        // This method is called when the test starts, we can add any logging or setup here
-        System.out.println("Test started: " + result.getMethod().getMethodName());
-
-        // Create a new test instance for each test
-        test = extent.createTest(result.getTestClass().getName() + " - " + result.getMethod().getMethodName());
-        test.assignCategory(result.getMethod().getGroups()); // Assign groups to the test
-    }
-
-    @Override
-    public void onTestFailedButWithinSuccessPercentage(ITestResult result) {
-        // This method is triggered if the test failed but within the success percentage
-        System.out.println("Test failed but within success percentage: " + result.getMethod().getMethodName());
-
-        test = extent.createTest(result.getTestClass().getName() + " - " + result.getMethod().getMethodName());
-        test.assignCategory(result.getMethod().getGroups()); // Assign groups to the test
-        test.log(Status.WARNING, result.getName() + " failed but is within the success percentage.");
-        test.log(Status.INFO, result.getThrowable().getMessage());
     }
 }
