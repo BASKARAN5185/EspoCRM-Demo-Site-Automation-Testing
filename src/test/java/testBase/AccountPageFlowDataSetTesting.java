@@ -7,11 +7,11 @@ import MyProject.demo.us.espocrm.com.BaseClass;
 import pageObjectClass.AccountPageLocators;
 import utility.TestDataProviderClass;
 
-public class AccountPageFlowTesting extends BaseClass {
+public class AccountPageFlowDataSetTesting extends BaseClass {
 
 	AccountPageLocators accountPage = new AccountPageLocators(driver);
 
-	@Test(enabled = true, groups = {
+	@Test(alwaysRun = true, groups = {
 			"FullAccountTest" }, dataProvider = "accountDataProvider", dataProviderClass = TestDataProviderClass.class)
 	public void fullAccountCreationAndVerificationFlow(String name, String website, String email, String phone,
 			String billingStreet, String billingCity, String billingState, String billingPostalCode,

@@ -87,5 +87,54 @@ public class TestDataProviderClass {
 	        { " ", " ", " ", " ", " ", " ", " ", " ", " ", " ", " ", " ", " ", " ", " ", " ", " ", " " }
 	    };
 	}
+	
+	@DataProvider(name = "contactData")
+	public Object[][] contactDataProvider() {
+	    return new Object[][] {
+	        // Valid Data Set
+	        {"Mr.", "John", "Doe", "Test Account", "john.doe@example.com", "Mobile", "1234567890", 
+	         "123 Elm Street", "New York", "NY", "10001", "USA", "01/01/1990", "Admin", "Sales", "Test Description"},
+	        
+	        {"Ms.", "Jane", "Smith", "Another Account", "jane.smith@example.com", "Home", "9876543210", 
+	         "456 Oak Street", "Los Angeles", "CA", "90001", "USA", "05/12/1985", "Manager", "HR", "Important Contact"},
+	        
+	        {"Dr.", "Alice", "Johnson", "Corporate Account", "alice.johnson@company.com", "Mobile", "1122334455", 
+	         "789 Pine Avenue", "Chicago", "IL", "60601", "USA", "15/08/1980", "Admin", "IT", "Corporate Admin"},
+	        
+	        {"Mr.", "Robert", "Brown", "Customer Account", "robert.brown@customer.com", "Work", "2233445566", 
+	         "123 Maple Road", "San Francisco", "CA", "94101", "USA", "20/03/1992", "Support", "Customer Service", "Client Contact"},
+	        
+	        {"Mrs.", "Emily", "Williams", "Client Account", "emily.williams@client.com", "Mobile", "6677889900", 
+	         "321 Birch Blvd", "Seattle", "WA", "98101", "USA", "10/10/1975", "Client", "Sales", "Long-Term Client"},
+
+	        // Invalid Data Set
+	        // Invalid Email Format
+	        {"Mr.", "Sam", "Green", "Test Account", "sam.green@com", "Mobile", "1122334455", 
+	         "987 Elm Street", "Houston", "TX", "77001", "USA", "25/07/1995", "Admin", "Sales", "Invalid Email"},
+
+	        // Missing First Name
+	        {"Ms.", "", "Black", "Sample Account", "ms.black@example.com", "Home", "9988776655", 
+	         "654 Pine Street", "Miami", "FL", "33101", "USA", "14/06/1990", "HR", "Support", "No First Name"},
+
+	        // Invalid Phone Number (contains letters)
+	        {"Dr.", "James", "Carter", "Corporate Account", "james.carter@company.com", "Mobile", "abcd1234", 
+	         "987 Cedar Lane", "Austin", "TX", "73301", "USA", "22/11/1980", "Manager", "IT", "Invalid Phone"},
+
+	        // Missing Postal Code
+	        {"Mr.", "Mark", "Taylor", "Customer Account", "mark.taylor@customer.com", "Work", "2233445566", 
+	         "123 Oak Road", "Dallas", "TX", "", "USA", "11/12/1992", "Support", "Customer", "No Postal Code"},
+
+	        // Invalid Date Format
+	        {"Ms.", "Laura", "Miller", "Client Account", "laura.miller@client.com", "Mobile", "7788990011", 
+	         "456 Birch Lane", "Boston", "MA", "02101", "USA", "1992-12-11", "Client", "Sales", "Invalid Date Format"},
+
+	        // Missing Country
+	        {"Mr.", "Steve", "Davis", "Test Account", "steve.davis@example.com", "Mobile", "1231231234", 
+	         "987 Oak Street", "Phoenix", "AZ", "85001", "", "USA", "15/06/1990", "Support", "Marketing", "No Country"}
+	    };
+	}
+
+    
+    
 
 }

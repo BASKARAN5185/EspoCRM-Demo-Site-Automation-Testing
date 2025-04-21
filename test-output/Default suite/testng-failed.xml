@@ -3,13 +3,25 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testBase.AccountPageFlowTesting">
+      <class name="testBase.ContactPageTests">
         <methods>
-          <include name="fullAccountCreationAndVerificationFlow" invocation-numbers="0 1 2 3 4 5 6 7 8 9"/>
+          <include name="testSelectPhoneType"/>
+          <include name="testClickAssignedUserSelectButton"/>
+          <include name="testEnterTeams"/>
           <include name="teardown"/>
           <include name="setUpTheBrowser"/>
+          <include name="setupPage"/>
+          <include name="testSelectSalutation"/>
+          <include name="testUploadPhoto"/>
+          <include name="testEnterAccount"/>
+          <include name="testEnterDescription"/>
+          <include name="testEnterAssignedUser"/>
+          <include name="testClickAssignedUserClearButton"/>
+          <include name="testCreateNewContact" invocation-numbers="0 1 2 3 4 5 6 7 8 9"/>
+          <include name="testEnterAddressStreet"/>
+          <include name="testClickTeamsSelectButton"/>
         </methods>
-      </class> <!-- testBase.AccountPageFlowTesting -->
+      </class> <!-- testBase.ContactPageTests -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
