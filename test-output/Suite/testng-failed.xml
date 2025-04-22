@@ -6,24 +6,30 @@
   </listeners>
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="testBase.OpportunitiesPageTest">
+      <class name="testBase.EmailPageTest">
         <methods>
-          <include name="testEnterTeamName"/>
-          <include name="testClickSaveAndContinueEditing"/>
+          <include name="testClickSearchButton"/>
+          <include name="testEnterSearchText"/>
+          <include name="testClickArchiveEmailOption"/>
+          <include name="testSelectDateSentFilterOption"/>
+          <include name="testSelectFromFilterOption"/>
+          <include name="testClickFilterDropdownButton"/>
+          <include name="testClickGroupEmailFolderOption"/>
           <include name="teardown"/>
-          <include name="testEnterProbability"/>
           <include name="setUpTheBrowser"/>
-          <include name="testSelectAmountCurrency"/>
-          <include name="testClickAddProductsMenuItem"/>
-          <include name="testSelectStage"/>
-          <include name="testClickSaveAndNew"/>
-          <include name="testIsBreadcrumbCreateDisplayed"/>
-          <include name="testEnterAmount"/>
-          <include name="testSelectItemsCurrency"/>
-          <include name="testClickTeamsSelectButton"/>
-          <include name="testSelectLeadSource"/>
+          <include name="testClickGroupEmailAccountsOption"/>
+          <include name="testClickEmailTemplatesOption"/>
+          <include name="testSelectToFilterOption"/>
+          <include name="testSelectEmailAddressFilterOption"/>
+          <include name="testSelectIsNotRepliedFilterOption"/>
+          <include name="testClickFiltersOption"/>
+          <include name="testSelectAccountFilterOption"/>
+          <include name="testClickHeaderTitle"/>
+          <include name="testSelectIsNotReadFilterOption"/>
+          <include name="testClickFoldersOption"/>
+          <include name="testSelectStatusFilterOption"/>
         </methods>
-      </class> <!-- testBase.OpportunitiesPageTest -->
+      </class> <!-- testBase.EmailPageTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
