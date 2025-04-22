@@ -6,25 +6,34 @@
   </listeners>
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="testBase.ContactPageTests">
+      <class name="testBase.LeadPageTest">
         <methods>
-          <include name="testSelectPhoneType"/>
-          <include name="testClickAssignedUserSelectButton"/>
-          <include name="testEnterTeams"/>
+          <include name="testSelectSource"/>
+          <include name="testSelectStatus"/>
+          <include name="testEnterOpportunityAmount"/>
+          <include name="testSelectCurrency"/>
+          <include name="testEnterTitle"/>
+          <include name="testEnterWebsite"/>
           <include name="teardown"/>
+          <include name="testEnterCreatedContact"/>
           <include name="setUpTheBrowser"/>
-          <include name="setupPage"/>
-          <include name="testSelectSalutation"/>
+          <include name="testEnterStreetAddress"/>
+          <include name="testEnterCountry"/>
           <include name="testUploadPhoto"/>
           <include name="testEnterAccount"/>
-          <include name="testEnterDescription"/>
+          <include name="testEnterLastName"/>
+          <include name="testEnterCity"/>
+          <include name="testEnterState"/>
+          <include name="testEnterCreatedOpportunity"/>
+          <include name="testEnterPostalCode"/>
+          <include name="testEnterFirstName"/>
+          <include name="testSelectIndustry"/>
+          <include name="testEnterCampaign"/>
           <include name="testEnterAssignedUser"/>
-          <include name="testClickAssignedUserClearButton"/>
-          <include name="testCreateNewContact" invocation-numbers="0 1 2 3 4 5 6 7 8 9"/>
-          <include name="testEnterAddressStreet"/>
-          <include name="testClickTeamsSelectButton"/>
+          <include name="testEnterDescription"/>
+          <include name="testEnterCreatedAccount"/>
         </methods>
-      </class> <!-- testBase.ContactPageTests -->
+      </class> <!-- testBase.LeadPageTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

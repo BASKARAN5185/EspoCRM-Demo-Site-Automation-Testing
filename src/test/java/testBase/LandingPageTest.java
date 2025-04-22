@@ -1,7 +1,6 @@
 package testBase;
 
 import org.testng.Assert;
-import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 import MyProject.demo.us.espocrm.com.BaseClass;
@@ -9,15 +8,16 @@ import pageObjectClass.LandingPageLocators;
 
 public class LandingPageTest extends BaseClass {
 
-	private LandingPageLocators homePage;
+	 LandingPageLocators homePage = new LandingPageLocators(driver);;
 
-    // Before each test, initialize the driver and page objects
-    @BeforeMethod
-    public void setUp() {
-        // Initialize the driver (Assuming driver setup is done in BaseClass)
-    //    WebDriver driver = getDriver();  // Replace with actual driver getter method
-        homePage = new LandingPageLocators(driver);
-    }
+		/*
+		 * // Before each test, initialize the driver and page objects
+		 * 
+		 * @BeforeMethod public void setUp() { // Initialize the driver (Assuming driver
+		 * setup is done in BaseClass) // WebDriver driver = getDriver(); // Replace
+		 * with actual driver getter method homePage = new LandingPageLocators(driver);
+		 * }
+		 */
 
 	@Test(groups = { "Menu", "Smoke", "Regression" })
 	public void homeMenuIsClickable() {
