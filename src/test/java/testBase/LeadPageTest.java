@@ -21,7 +21,7 @@ public class LeadPageTest extends BaseClass {
     }
 
     // Test for clicking on "Leads" breadcrumb (for navigation)
-    @Test(priority = 27, groups = { "Navigation", "Sanity" })
+    @Test(priority = 27, groups = { "LeadCreate", "Sanity" })
     public void testClickLeadsBreadcrumb() {
         boolean result = leadPage.clickLeadsBreadcrumb();
         Assert.assertTrue(result, "Clicking on 'Leads' breadcrumb failed.");

@@ -6,34 +6,24 @@
   </listeners>
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="testBase.LeadPageTest">
+      <class name="testBase.OpportunitiesPageTest">
         <methods>
-          <include name="testSelectSource"/>
-          <include name="testSelectStatus"/>
-          <include name="testEnterOpportunityAmount"/>
-          <include name="testSelectCurrency"/>
-          <include name="testEnterTitle"/>
-          <include name="testEnterWebsite"/>
+          <include name="testEnterTeamName"/>
+          <include name="testClickSaveAndContinueEditing"/>
           <include name="teardown"/>
-          <include name="testEnterCreatedContact"/>
+          <include name="testEnterProbability"/>
           <include name="setUpTheBrowser"/>
-          <include name="testEnterStreetAddress"/>
-          <include name="testEnterCountry"/>
-          <include name="testUploadPhoto"/>
-          <include name="testEnterAccount"/>
-          <include name="testEnterLastName"/>
-          <include name="testEnterCity"/>
-          <include name="testEnterState"/>
-          <include name="testEnterCreatedOpportunity"/>
-          <include name="testEnterPostalCode"/>
-          <include name="testEnterFirstName"/>
-          <include name="testSelectIndustry"/>
-          <include name="testEnterCampaign"/>
-          <include name="testEnterAssignedUser"/>
-          <include name="testEnterDescription"/>
-          <include name="testEnterCreatedAccount"/>
+          <include name="testSelectAmountCurrency"/>
+          <include name="testClickAddProductsMenuItem"/>
+          <include name="testSelectStage"/>
+          <include name="testClickSaveAndNew"/>
+          <include name="testIsBreadcrumbCreateDisplayed"/>
+          <include name="testEnterAmount"/>
+          <include name="testSelectItemsCurrency"/>
+          <include name="testClickTeamsSelectButton"/>
+          <include name="testSelectLeadSource"/>
         </methods>
-      </class> <!-- testBase.LeadPageTest -->
+      </class> <!-- testBase.OpportunitiesPageTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
