@@ -1,6 +1,6 @@
 # EspoCRM Demo Site - Automation Testing (Java)
 
-This repository contains an automation test suite written in **Java** using **Selenium WebDriver** and **TestNG** to validate the key functionalities of the [EspoCRM Demo Site](https://demo.espocrm.com/). This project demonstrates my practical experience in test automation, following industry best practices like the Page Object Model and modular framework design.
+This repository contains an automation test suite written in **Java** using **Selenium WebDriver** and **TestNG** to validate the key functionalities of the [EspoCRM Demo Site](https://demo.espocrm.com/). The project is designed using the **Page Object Model (POM)** and supports **data-driven testing**, providing a maintainable and scalable test automation framework.
 
 ---
 
@@ -13,52 +13,52 @@ This repository contains an automation test suite written in **Java** using **Se
 - [Running Tests](#running-tests)
 - [Project Structure](#project-structure)
 - [Contributing](#contributing)
-- [License](#license)
 
 ---
 
 ## 📌 About the Project
 
-The goal of this project is to automate UI testing for the EspoCRM demo application. The test cases cover end-to-end scenarios that a typical CRM user would perform, such as:
+This project automates UI testing for the EspoCRM demo web application. Key areas tested include:
 
-- Logging into the CRM
-- Creating and updating leads and opportunities
-- Searching records
-- Validating UI elements and data
+- User login/logout
+- Creation and editing of leads, contacts, accounts, opportunities, and emails
+- Page and data validations
+- End-to-end workflows
 
-This project helped me solidify my understanding of Selenium WebDriver, TestNG, Maven, and Java automation principles. It also serves as a practical portfolio piece to demonstrate my approach to framework design and test coverage.
+The main focus is on tests and reusable components within `src/test/java`. `src/main/java` contains placeholder content (`App.java`), which can be extended in the future for utility or core logic.
 
 ---
 
 ## 🛠 Technologies Used
 
-| Component          | Details                         |
-|--------------------|----------------------------------|
-| Programming Language | Java 11+                      |
-| Automation Tool    | Selenium WebDriver               |
-| Test Framework     | TestNG                           |
-| Build Tool         | Maven                            |
-| Browser Driver     | ChromeDriver (tested on vX.X.X)  |
-| Reporting          | TestNG default report (HTML)     |
-| Design Pattern     | Page Object Model (POM)          |
-| IDE                | IntelliJ IDEA / Eclipse          |
-| OS Compatibility   | Windows / Linux                  |
+| Component           | Details                           |
+|---------------------|------------------------------------|
+| Language            | Java 11+                           |
+| Automation Framework| Selenium WebDriver                 |
+| Test Framework      | TestNG                             |
+| Build Tool          | Maven                              |
+| Reporting           | TestNG HTML + ExtentReports        |
+| Design Pattern      | Page Object Model (POM)            |
+| Data Provider       | Apache POI for Excel               |
+| Browser Driver      | ChromeDriver                       |
+| IDE                 | IntelliJ IDEA / Eclipse            |
+| OS Compatibility    | Windows / Linux                    |
 
 ---
 
 ## ✅ Test Scenarios Covered
 
-| Module              | Test Case Description                      | Status |
-|---------------------|--------------------------------------------|--------|
-| Login               | Login with valid credentials               | ✅     |
-| Login               | Login with invalid credentials             | ✅     |
-| Lead Management     | Create new lead                            | ✅     |
-| Lead Management     | Edit lead details                          | ✅     |
-| Opportunities       | Create new opportunity                     | ✅     |
-| Opportunities       | Edit and update opportunity status         | ✅     |
-| Search & Filter     | Use search and filter options              | ✅     |
-| Logout              | Validate logout flow                       | ✅     |
-| UI Validations      | Check for broken/missing UI components     | ✅     |
+| Module         | Test Class                                  | Description                              |
+|----------------|----------------------------------------------|------------------------------------------|
+| Login          | `LoginPageTest.java`                         | Valid & invalid login test cases         |
+| Dashboard      | `LandingPageTest.java`                       | Dashboard UI validation                  |
+| Leads          | `LeadPageTest.java`                          | Create, edit, and validate lead details  |
+| Accounts       | `AccountPageTest.java`                       | Account module validation                |
+| Data-Driven    | `AccountPageFlowDataSetTesting.java`         | Data-driven account creation             |
+| Contacts       | `ContactPageTests.java`                      | Contact creation flow                    |
+| Opportunities  | `OpportunitiesPageTest.java`                | Create and edit opportunities            |
+| Emails         | `EmailPageTest.java`                         | Basic email module testing               |
+| Full Workflow  | `End to End Testing.xml`                     | Combined test flow simulation            |
 
 ---
 
@@ -66,25 +66,21 @@ This project helped me solidify my understanding of Selenium WebDriver, TestNG, 
 
 ### Prerequisites
 
-Make sure the following are installed on your machine:
+Install the following:
 
-- Java 11 or higher
+- Java 11 or later
 - Maven 3.x
-- Chrome browser
-- ChromeDriver (compatible with your Chrome version)
+- Google Chrome
+- [ChromeDriver](https://sites.google.com/chromium.org/driver/) (match your browser version)
 
-You can download ChromeDriver here: https://sites.google.com/chromium.org/driver/
-
-### Installation
-
-Clone the project from GitHub:
+### Clone the Repository
 
 ```bash
 git clone https://github.com/yourusername/espocrm-automation-java.git
 cd espocrm-automation-java
 ```
 
-Install dependencies and build the project:
+### Build the Project
 
 ```bash
 mvn clean install
@@ -100,23 +96,22 @@ mvn clean install
 mvn test
 ```
 
-### Run Specific Test Class
+### Run a Specific Class
 
 ```bash
-mvn -Dtest=LoginTest test
+mvn -Dtest=LoginPageTest test
 ```
 
-### View Test Report
+### Run via XML Suite
 
-After test execution, open the default TestNG report:
-
-```
-/test-output/index.html
+```bash
+mvn test -DsuiteXmlFile=LeadPageTest.xml
 ```
 
-Just open the file in your browser to see a summary of passed/failed/skipped tests.
+### Reports
 
-> Allure reporting can be integrated for advanced visual reports.
+- TestNG Report: `test-output/index.html`
+- Extent Report (if used): `/Reports/ExtentReport.html`
 
 ---
 
@@ -126,50 +121,63 @@ Just open the file in your browser to see a summary of passed/failed/skipped tes
 espocrm-automation-java/
 │
 ├── src/
-│   ├── main/
-│   │   └── java/
-│   │       ├── pages/           # Page classes (POM design)
-│   │       └── utils/           # Utility classes (browser setup, config)
-│   └── test/
-│       └── java/
-│           └── tests/           # TestNG test classes
+│   ├── main/java/
+│   │   └── MyProject/demo/us/espocrm/com/
+│   │       └── App.java                   # Placeholder or starter class
+│   └── test/java/
+│       └── MyProject/demo/us/espocrm/com/
+│           ├── pageObjectClass/           # All Page Object classes
+│           │   ├── LoginPage.java
+│           │   ├── LeadPageLocators.java
+│           │   ├── OpportunitiesPageLocators.java
+│           │   ├── AccountPageLocators.java
+│           │   ├── ContactPageLocators.java
+│           │   └── EmailPageLocators.java
+│           ├── testBase/                  # Test classes
+│           │   ├── BaseClass.java
+│           │   ├── LoginPageTest.java
+│           │   ├── LeadPageTest.java
+│           │   ├── AccountPageTest.java
+│           │   ├── AccountPageFlowDataSetTesting.java
+│           │   ├── ContactPageTests.java
+│           │   ├── OpportunitiesPageTest.java
+│           │   └── EmailPageTest.java
+│           └── utility/                   # Utils and Reporting
+│               ├── ExtentReportManager.java
+│               └── TestDataProviderClass.java
 │
-├── drivers/                     # WebDriver executables (optional)
-├── testng.xml                   # TestNG suite configuration
-├── pom.xml                      # Maven project descriptor
-└── README.md                    # Project documentation
+├── .settings/                             # Eclipse config files
+├── .classpath
+├── .project
+├── *.xml                                  # TestNG suite files
+│   ├── testng.xml
+│   ├── AccountCreationDataDrivenTesting.xml
+│   ├── AccountPageTest.xml
+│   ├── EmailPageTest.xml
+│   ├── LeadPageTest.xml
+│   ├── OpportunitiesTest.xml
+│   ├── End to End Testing.xml
+│   └── contanctCreateFlowtesting.xml
+├── pom.xml                                # Maven config
+├── test-output/                           # TestNG reports
+├── target/                                # Compiled output
+└── README.md                              # This file
 ```
 
 ---
 
 ## 🤝 Contributing
 
-As I continue to learn and grow in test automation, I welcome any suggestions or feedback to improve this project. Feel free to fork, make changes, and open a pull request.
-
-### How to Contribute:
+I'm continuously learning and improving this framework. Contributions and suggestions are welcome!
 
 1. Fork the repository
-2. Create a new branch: `git checkout -b feature/your-feature-name`
-3. Commit your changes: `git commit -m 'Add your message here'`
-4. Push to your branch: `git push origin feature/your-feature-name`
-5. Open a pull request on GitHub
+2. Create a feature branch: `git checkout -b feature/your-feature-name`
+3. Commit changes: `git commit -m "Added something useful"`
+4. Push the branch: `git push origin feature/your-feature-name`
+5. Create a Pull Request
 
 ---
 
-## 📄 License
-
-This project is licensed under the [MIT License](LICENSE).
+> 🚀 Built with curiosity and hands-on experience by a passionate QA Automation Engineer, focused on writing clean, scalable, and real-world test automation.
 
 ---
-
-> 🚀 Built with passion and curiosity by a budding automation tester with 1 year of hands-on experience in Java, Selenium, and TestNG.
-```
-
----
-
-Let me know if you'd like:
-- A `pom.xml` template for this project  
-- A GitHub Actions workflow for CI  
-- Sample code snippets for test classes or page objects  
-
-I’m happy to keep building this with you!
