@@ -24,7 +24,7 @@ public class BaseClass {
 		ChromeOptions options = new ChromeOptions();
 
 		// Add desired Chrome options
-		options.addArguments("--headless"); // Run in headless mode
+	//	options.addArguments("--headless"); // Run in headless mode
 		options.addArguments("--incognito"); // Incognito mode
 		options.addArguments("--force-dark-mode"); // Force dark mode (Chrome-level)
 		options.addArguments("--enable-features=WebContentsForceDark"); // Enable dark for web contents

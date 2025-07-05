@@ -481,7 +481,8 @@ public class AccountPageLocators extends BaseClass {
 
 	        // Optional: wait for "Are you sure..." message to appear after clicking
 	        try {
-	            WebElement leaveFormText = wait.until(ExpectedConditions.visibilityOfElementLocated(
+	            @SuppressWarnings("unused")
+				WebElement leaveFormText = wait.until(ExpectedConditions.visibilityOfElementLocated(
 	                By.xpath("//*[contains(text(), 'Are you sure you want to leave the form')]")));
 	            System.out.println("'Are you sure...' message appeared after clicking 'Yes'.");
 	        } catch (TimeoutException e) {

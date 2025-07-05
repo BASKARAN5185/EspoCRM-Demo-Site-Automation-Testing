@@ -1,35 +1,161 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+<suite parallel="methods" name="Failed suite [Suite]">
   <listeners>
     <listener class-name="utility.ExtentReportManager"/>
   </listeners>
-  <test thread-count="5" name="Test(failed)">
+  <test thread-count="5" parallel="methods" name="ParallelByMethods(failed)">
     <classes>
-      <class name="testBase.EmailPageTest">
+      <class name="testBase.LoginPageTest">
         <methods>
-          <include name="testClickSearchButton"/>
-          <include name="testEnterSearchText"/>
-          <include name="testClickArchiveEmailOption"/>
-          <include name="testSelectDateSentFilterOption"/>
-          <include name="testSelectFromFilterOption"/>
-          <include name="testClickFilterDropdownButton"/>
-          <include name="testClickGroupEmailFolderOption"/>
           <include name="teardown"/>
           <include name="setUpTheBrowser"/>
-          <include name="testClickGroupEmailAccountsOption"/>
-          <include name="testClickEmailTemplatesOption"/>
-          <include name="testSelectToFilterOption"/>
-          <include name="testSelectEmailAddressFilterOption"/>
-          <include name="testSelectIsNotRepliedFilterOption"/>
-          <include name="testClickFiltersOption"/>
-          <include name="testSelectAccountFilterOption"/>
-          <include name="testClickHeaderTitle"/>
-          <include name="testSelectIsNotReadFilterOption"/>
-          <include name="testClickFoldersOption"/>
-          <include name="testSelectStatusFilterOption"/>
+          <include name="loginTheEspoCRM"/>
         </methods>
-      </class> <!-- testBase.EmailPageTest -->
+      </class> <!-- testBase.LoginPageTest -->
+      <class name="testBase.LandingPageTest">
+        <methods>
+          <include name="inventoryNumbersTabIsClickable"/>
+          <include name="usersTabIsClickable"/>
+          <include name="menuDropdownIsClickable"/>
+          <include name="quickCreateDropdownIsClickable"/>
+          <include name="workingTimeCalendarsTabIsClickable"/>
+          <include name="calendarTabIsClickable"/>
+          <include name="globalSearchInputIsClickable"/>
+          <include name="targetListsTabIsClickable"/>
+          <include name="dropdownButtonIsClickable"/>
+          <include name="logoutOptionIsClickable"/>
+          <include name="notificationsButtonIsClickable"/>
+          <include name="quickCreateAccountIsClickable"/>
+          <include name="leadsMenuIsClickable"/>
+          <include name="emailsTabIsClickable"/>
+          <include name="callsTabIsClickable"/>
+          <include name="meetingsTabIsClickable"/>
+          <include name="createCaseIsClickable"/>
+          <include name="accountsMenuIsClickable"/>
+          <include name="teamsTabIsClickable"/>
+          <include name="createEmailIsClickable"/>
+          <include name="globalStreamTabIsClickable"/>
+          <include name="adminOptionIsClickable"/>
+          <include name="activeTabIsClickable"/>
+          <include name="addDashletItemIsClickable"/>
+          <include name="opportunitiesMenuIsClickable"/>
+          <include name="createLeadIsClickable"/>
+          <include name="preferencesLinkIsClickable"/>
+          <include name="purchaseOrdersTabIsClickable"/>
+          <include name="createProjectTaskIsClickable"/>
+          <include name="createOpportunityIsClickable"/>
+          <include name="tasksTabIsClickable"/>
+          <include name="projectsTabIsClickable"/>
+          <include name="salesAnalyticsTabIsClickable"/>
+          <include name="salesManagerTabIsClickable"/>
+          <include name="editDashboardItemIsClickable"/>
+          <include name="inventoryAdjustmentsTabIsClickable"/>
+          <include name="quickCreateDropdown1IsClickable"/>
+          <include name="quotesTabIsClickable"/>
+          <include name="mySalesTabIsClickable"/>
+          <include name="quickCreateLeadIsClickable"/>
+          <include name="deliveryOrdersTabIsClickable"/>
+          <include name="userProfileIsClickable"/>
+          <include name="teardown"/>
+          <include name="setUpTheBrowser"/>
+          <include name="salesOrdersTabIsClickable"/>
+          <include name="aboutLinkIsClickable"/>
+          <include name="createCallIsClickable"/>
+          <include name="myHomepageTabIsClickable"/>
+          <include name="returnOrdersTabIsClickable"/>
+          <include name="createContactIsClickable"/>
+          <include name="productsTabIsClickable"/>
+          <include name="contactsMenuIsClickable"/>
+          <include name="moreDropdownIsClickable"/>
+          <include name="createTaskIsClickable"/>
+          <include name="inventoryTransactionsTabIsClickable"/>
+          <include name="callCenterDataTabIsClickable"/>
+          <include name="adminLinkIsClickable"/>
+          <include name="userMenuDropdownIsClickable"/>
+          <include name="logoutLinkIsClickable"/>
+          <include name="createMeetingIsClickable"/>
+          <include name="globalSearchButtonIsClickable"/>
+          <include name="knowledgeBaseTabIsClickable"/>
+          <include name="streamTabIsClickable"/>
+          <include name="warehousesTabIsClickable"/>
+          <include name="documentsTabIsClickable"/>
+          <include name="casesTabIsClickable"/>
+          <include name="reportsTabIsClickable"/>
+          <include name="preferencesOptionIsClickable"/>
+          <include name="createAccountIsClickable"/>
+          <include name="notificationsIconIsClickable"/>
+          <include name="homeMenuIsClickable"/>
+          <include name="campaignsTabIsClickable"/>
+        </methods>
+      </class> <!-- testBase.LandingPageTest -->
+      <class name="testBase.AccountPageTest">
+        <methods>
+          <include name="filterOptionStarredIsSelectable"/>
+          <include name="testEnterShippingStreet"/>
+          <include name="addFilterDropdownIsClickable"/>
+          <include name="testEnterBillingPostalCode"/>
+          <include name="createdByFilterOptionIsClickable"/>
+          <include name="followedCheckboxIsChecked"/>
+          <include name="websiteFilterIsClickable"/>
+          <include name="teamsFilterOptionIsClickable"/>
+          <include name="modifiedAtFilterOptionIsClickable"/>
+          <include name="descriptionFilterOptionIsClickable"/>
+          <include name="testClickCancelButton"/>
+          <include name="phoneFilterOptionIsClickable"/>
+          <include name="testClickCopyBillingButton"/>
+          <include name="testClickTeamSelectButton"/>
+          <include name="testEnterPhone"/>
+          <include name="onlyMyCheckboxIsChecked"/>
+          <include name="filterOptionRecentlyCreatedIsSelectable"/>
+          <include name="testToggleCityColumn"/>
+          <include name="resetButtonIsClickable"/>
+          <include name="testClickSaveAndNewButton"/>
+          <include name="testEnterBillingState"/>
+          <include name="filterOptionAllIsSelectable"/>
+          <include name="testHeaderTitleVisibility"/>
+          <include name="accountsMenuIsClickable"/>
+          <include name="testPaginationNextClick"/>
+          <include name="testEnterBillingCountry"/>
+          <include name="filterDropdownIsClickable"/>
+          <include name="testEnterShippingCountry"/>
+          <include name="testEnterAssignedUser"/>
+          <include name="industryFilterOptionIsClickable"/>
+          <include name="testEnterTeam"/>
+          <include name="testEnterBillingCity"/>
+          <include name="testPhoneTypeDropdownVisibility"/>
+          <include name="testClickSaveButton"/>
+          <include name="testEnterShippingState"/>
+          <include name="shippingAddressFilterIsClickable"/>
+          <include name="teardown"/>
+          <include name="testEnterDescription"/>
+          <include name="setUpTheBrowser"/>
+          <include name="testEnterEmail"/>
+          <include name="testClickSaveAndContinueButton"/>
+          <include name="createAccountButtonIsClickable"/>
+          <include name="testEnterBillingStreet"/>
+          <include name="searchButtonIsClickable"/>
+          <include name="testEnterShippingCity"/>
+          <include name="filterAssignedUserOptionIsClickable"/>
+          <include name="typeFilterOptionIsClickable"/>
+          <include name="testToggleTypeColumn"/>
+          <include name="testToggleCountryColumn"/>
+          <include name="targetListsFilterOptionIsClickable"/>
+          <include name="testEnterShippingPostalCode"/>
+          <include name="testToggleIndustryColumn"/>
+          <include name="testClickAssignedUserSelect"/>
+          <include name="billingAddressFilterIsClickable"/>
+          <include name="testClickAssignedUserClear"/>
+          <include name="searchTextIsEnteredSuccessfully"/>
+          <include name="createdAtFilterOptionIsClickable"/>
+          <include name="emailFilterOptionIsClickable"/>
+          <include name="testEnterWebsite"/>
+          <include name="testBreadcrumbsVisibility"/>
+          <include name="testToggleColumnResize"/>
+          <include name="testEnterName"/>
+          <include name="countryFilterOptionIsClickable"/>
+        </methods>
+      </class> <!-- testBase.AccountPageTest -->
     </classes>
-  </test> <!-- Test(failed) -->
+  </test> <!-- ParallelByMethods(failed) -->
 </suite> <!-- Failed suite [Suite] -->

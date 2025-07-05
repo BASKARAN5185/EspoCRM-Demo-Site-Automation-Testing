@@ -15,7 +15,7 @@ public class EmailPageTest extends BaseClass {
 	@Test(priority = 1, groups = { "EmailPage", "Sanity" })
 	public void testClickHeaderTitle() {
 		landingPage.clickEmailsTab();
-		Assert.assertTrue(emailPage.clickHeaderTitle(), "Failed to click on Header Title");
+		Assert.assertEquals(emailPage.clickHeaderTitle(), "Failed to click on Header Title");
 	}
 
 	@Test(priority = 2, groups = { "EmailPage", "Sanity" })

@@ -3,25 +3,33 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testBase.ContactPageTests">
+      <class name="testBase.EmailPageTest">
         <methods>
-          <include name="testSelectPhoneType"/>
-          <include name="testClickAssignedUserSelectButton"/>
-          <include name="testEnterTeams"/>
+          <include name="testClickSearchButton"/>
+          <include name="testEnterSearchText"/>
+          <include name="testClickArchiveEmailOption"/>
+          <include name="testClickFilterDropdownButton"/>
+          <include name="testSelectFromFilterOption"/>
+          <include name="testSelectDateSentFilterOption"/>
+          <include name="testClickGroupEmailFolderOption"/>
           <include name="teardown"/>
           <include name="setUpTheBrowser"/>
-          <include name="setupPage"/>
-          <include name="testSelectSalutation"/>
-          <include name="testUploadPhoto"/>
-          <include name="testEnterAccount"/>
-          <include name="testEnterDescription"/>
-          <include name="testEnterAssignedUser"/>
-          <include name="testClickAssignedUserClearButton"/>
-          <include name="testCreateNewContact" invocation-numbers="0 1 2 3 4 5 6 7 8 9"/>
-          <include name="testEnterAddressStreet"/>
-          <include name="testClickTeamsSelectButton"/>
+          <include name="testClickGroupEmailAccountsOption"/>
+          <include name="testClickEmailTemplatesOption"/>
+          <include name="testSelectToFilterOption"/>
+          <include name="testClickDropdownButton"/>
+          <include name="testSelectEmailAddressFilterOption"/>
+          <include name="testClickFiltersOption"/>
+          <include name="testSelectIsNotRepliedFilterOption"/>
+          <include name="testSelectAccountFilterOption"/>
+          <include name="testClickPersonalEmailAccountsOption"/>
+          <include name="testClickHeaderTitle"/>
+          <include name="testSelectIsNotReadFilterOption"/>
+          <include name="testClickComposeEmailButton"/>
+          <include name="testClickFoldersOption"/>
+          <include name="testSelectStatusFilterOption"/>
         </methods>
-      </class> <!-- testBase.ContactPageTests -->
+      </class> <!-- testBase.EmailPageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

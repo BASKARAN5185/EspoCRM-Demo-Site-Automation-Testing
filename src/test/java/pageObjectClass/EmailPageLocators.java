@@ -1,6 +1,7 @@
 package pageObjectClass;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import MyProject.demo.us.espocrm.com.BaseClass;
 
@@ -74,9 +75,9 @@ public class EmailPageLocators extends BaseClass {
     By noDataMessage = By.cssSelector(".no-data");
     
     // Header section methods
-    public boolean clickHeaderTitle() {
-        driver.findElement(headerTitle).click();
-        return true;
+    public String clickHeaderTitle() {
+       WebElement Title= driver.findElement(headerTitle);
+        return Title.getText();
     }
 
     public boolean clickComposeEmailButton() {
