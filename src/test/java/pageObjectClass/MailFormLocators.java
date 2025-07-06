@@ -30,51 +30,52 @@ public class MailFormLocators extends BaseClass {
 		return true;
 	}
 
-	public void toMailEntered() {
+	public void toMailEntered(String ToMail) {
 		WebElement Field = driver.findElement(To);
 		Field.clear();
-		Field.sendKeys("guru@gmail.com");
+		Field.sendKeys(ToMail);
 	}
 
-	public void CCEntered() {
+	public void CCEntered(String cc) {
 		WebElement Field = driver.findElement(CC);
 		Field.clear();
-		Field.sendKeys("new lead");
+		Field.sendKeys(cc);
 	}
 
-	public void BCCEntered() {
+	public void BCCEntered(String bcc) {
 		WebElement Field = driver.findElement(Bcc);
 		Field.clear();
-		Field.sendKeys("New oppertunity");
+		Field.sendKeys(bcc);
 	}
 
-	public void Parentselect() {
+	public boolean Parentselect(String parent) {
 		WebElement ParentField = driver.findElement(Parent);
-		ParentField.sendKeys("AFP Supply");
+		ParentField.sendKeys(parent);
 		driver.findElement(By.xpath("//*[text()='AFP Supply']")).click();
+		return true;
 	}
 
-	public void templetselect() {
-		WebElement ParentField = driver.findElement(Parent);
-		ParentField.sendKeys("Case");
+	public void templetselect(String temp) {
+		WebElement ParentField = driver.findElement(SelectTemplete);
+		ParentField.sendKeys(temp);
 		driver.findElement(By.xpath("//*[text()='Case-to-Email auto-reply']")).click();
 	}
 
-	public void subjectEntered() {
+	public void subjectEntered(String subj) {
 		WebElement Field = driver.findElement(Subject);
 		Field.clear();
-		Field.sendKeys("New iphone 16 pro");
+		Field.sendKeys(subj);
 	}
 
-	public void bodyEntered() {
+	public void bodyEntered(String body) {
 		WebElement Field = driver.findElement(Body);
 		Field.clear();
-		Field.sendKeys("New order will be 15000 iphoe 16 promaxis ordered ");
+		Field.sendKeys(body);
 	}
 
-	public void attchmentAdded() {
+	public void attchmentAdded(String attach) {
 		WebElement Field = driver.findElement(Attachment);
-		Field.sendKeys("C:\\Users\\xmedia\\Downloads\\Java_Problems_QA_Tester.pdf");
+		Field.sendKeys(attach);
 	}
 
 	public boolean sendMailButtonClick() {
@@ -82,15 +83,16 @@ public class MailFormLocators extends BaseClass {
 		return true;
 	}
 
-	public boolean composeMailFillandsell() {
-		toMailEntered();
-		CCEntered();
-		BCCEntered();
-		Parentselect();
-		templetselect();
-		subjectEntered();
-		bodyEntered();
-		attchmentAdded();
+	public boolean composeMailFillandsend(String tomail, String cc, String bcc, String par, String sub, String temp,
+			String body, String attach) {
+		toMailEntered(tomail);
+		CCEntered(cc);
+		BCCEntered(bcc);
+		Parentselect(par);
+		templetselect(temp);
+		subjectEntered(sub);
+		bodyEntered(body);
+		attchmentAdded(attach);
 		return sendMailButtonClick();
 
 	}
